@@ -580,7 +580,11 @@
 }
 
 .benefits-title {
+  overflow: hidden
+}
 
+.benefits-header {
+   transform: translate(100%, 0);
 }
 
 .benefits-notice-title {
@@ -656,10 +660,10 @@
 }
 
 @media (min-width: 991px) {
-  .benefits-list-item:hover .benefits-list-icon {
-    transform: scale(1.15, 1.15);
-    opacity: 0.60;
-  }
+  /* .benefits-list-item:hover .benefits-list-icon {
+    transform: scale(1.15, 1.15) !important;
+    opacity: 0.60 !important;
+  } */
 
   .benefits-list-item:hover .benefits-notice-title {
     opacity: 1;
