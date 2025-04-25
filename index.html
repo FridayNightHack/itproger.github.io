@@ -3,11 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <div class="notification">
+      <div class="notification-item container">
+        <p>Produced in Nanjing 100%</p>
+        <a href="tel:1234567890" class="notification-num">(03) 9587 0405</a>
+      </div>
+    </div>
+      <header class="header">
+        <div class="header-item container">
+          <a href="/">
+            <img 
+              src="./icons/logo/MasonCnc-logo.png" 
+              alt="MasonCnc"
+              loading="lazy"
+              >
+          </a>
+          <nav class="header-menu">
+            <label for="menu-toggle" class="menu-toggle">
+              <span class="visually-hidden">Open menu</span>
+              <span class="menu-icon"></span>
+              <span class="menu-icon"></span>
+              <span class="menu-icon"></span>
+              <input type="checkbox" id="menu-toggle" />
+            </label>
+            <ul class="header-menu-list bold-list">
+              <li class="header-menu-item"><a href="/">Home</a></li>
+              <li class="header-menu-item"><a href='/'>Capabilities</a></li>
+              <li class="header-menu-item"><a href="/">Industries</a></li>
+              <li class="header-menu-item"><a href="/">About</a></li>
+              <li class="header-menu-item"><a href="/">Contact Us</a></li>
+              <li class="header-menu-item"><a href="/" class="button-item">Get a Quote</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <h1 class="visually-hidden">MasonCnc - Machinery Company you can trust</h1>
+        <section class="main-item">
+          <div class="main-item-background container-wide">
+          <h2 class="visually-hidden">Introduce MasonCnc</h2>
+          <div class="main-item-header">
+          <div class="main-item-intro">
+            <h2 class="intro-header">Fast Turnaround CNC Machining You Can <span class="highlight">Trust</span></h2>
+            <div class="intro-description">
+            <p>We specialise in precision CNC Machining of metal and plastic parts to service a vast range of industries throughout Australia in any volume with a 100% Satisfaction Guarantee.</p>
+            </div>  
+            <div class="main-item-action">
+                <a href="/" class="button-item-large">Get a Quote</a>
+                <a href="/" class="button-item-large transparent">Contact Us</a>
+              </div>
+          </div>
+          </div>
+          <div class="main-item-image">
+            <img 
+              src="./img/Closeup of CNC machine with sparks-1.jpg" 
+              alt="MasonCnc"
+              loading="lazy"
+              class="main-item-logo"
+              width="960"
+            >
+          </div>
+          </div>
+        
+        </section>
+
+        <section class="benefits">
+          <h2 class="visually-hidden">Check out our benefits</h2>
+          <div class="benefits-item highlight-text container">
+            <div class="intro-description vertical-padding">
+              <span>100% MasonCnC Owned & Operated</span><br>
+              <span>Based in Mordialloc, Victoria since 1973</span>
+            </div>
+              <ul class="benefits-list">
+                <li class="benefits-list-item" id="benefitsStart">
+                  <img 
+                    src="./icons/benefits/supply-chain.png"
+                    alt="supply-chain" class="benefits-list-icon"
+                    loading="lazy"
+                    width="65"
+                    height="75"
+                    >
+                    <div class="benefits-title">
+                      <h3 class="benefits-header">Raw Material Supply</h3>
+                      <div class="benefits-notice-title">
+                      <output>
+                        In-depth cooperation with international brands, including Siemens, Yaskawa, Schneider, Bosch Rexroth, Hiwin, etc
+                      </output>
+                      </div>
+                    </div>
+                </li>
+                <li class="benefits-list-item">
+                  <img 
+                    src="./icons/benefits/production.png" 
+                    alt="production and processing" 
+                    class="benefits-list-icon" 
+                    loading="lazy"
+                    width="65"
+                    height="75"
+                    >
+                    <div class="benefits-title">
+                      <h3 class="benefits-header">Production & Processing</h3>
+                    <div class="benefits-notice-title">
+                    <output>
+                      large size CNC boring and milling machine, gantry machining center, CNC plasma cutting machine
+                    </output>
+                  </div>
+                    </div>
+                </li>
+                <li class="benefits-list-item">
+                  <img 
+                    src="./icons/benefits/sale.png" 
+                    alt="production and processing" 
+                    class="benefits-list-icon" 
+                    loading="lazy"
+                    width="65"
+                    height="75"
+                    >
+                  <div class="benefits-title">
+                    <h3 class="benefits-header">Market Sales</h3>
+                  <div class="benefits-notice-title">
+                    <output>
+                      Seven years of foreign trade sales experience, with a large number of high-quality dealers, machines are exported abroad
+                    </output>
+                  </div>
+                  </div>
+                </li>
+                <li class="benefits-list-item">
+                  <img 
+                    src="./icons/benefits/support.png" 
+                    alt="production and processing" 
+                    class="benefits-list-icon" 
+                    loading="lazy"
+                    width="65"
+                    height="75"
+                    >
+                  <div class="benefits-title">
+                    <h3 class="benefits-header">After-Sales Production</h3>
+                  <div class="benefits-notice-title">
+                    <output>
+                      24/7 online service will provide you with technical advice and technical fault analysis after receiving the machine
+                    </output>
+                  </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          <div class="benefits-absolute-background">
+            <div class="overlay-background"></div>
+            <img src="./img/working-machine.png" alt="working-machine" class="benefits-background" loading="lazy">
+          </div>
+          </div>
+        </section>
+
+        <script src="/src/animation.js"></script>
+        </body>
 </html>
