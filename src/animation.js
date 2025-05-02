@@ -10,7 +10,8 @@ window.addEventListener('scroll', () => {
             let text = item.querySelectorAll(['.benefits-header', 'benefits-notice-title > output']);
 
         Array.from(icon).forEach((iconItem) => {
-            iconItem.style.animation = `icon-scale 0.5s ease-in-out 0.${index}s forwards`;
+            iconItem.style.transform = 'scale(1, 1)';
+            iconItem.style.animation = `icon-scale 0.5s ease-in-out`;
             })
 
             Array.from(text).forEach((item) => {
