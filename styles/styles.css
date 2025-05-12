@@ -643,7 +643,7 @@
   transform: rotate(45deg);
 }
 
-.menu-toggle:has(:checked) + .header-menu-list {
+.menu-toggle:has(:checked) + .header-menu-list, .header-menu-list:has(a:focus-visible) {
   max-height: calc(100vh - 104px);
 }
 
@@ -856,6 +856,7 @@
   border-radius: 5px;
   padding-bottom: 20px;
   transition: all 0.5s ease-in-out;
+  transform: translate(0, 15%);
   opacity: 0;
 }
 
@@ -897,7 +898,7 @@
 }
 
 .capabilities-item:hover {
-  transform: translate(0, -5%);
+  transform: translate(0, -5%) !important;
 }
 
 .capabilities-item:hover .capabilities-img img {
@@ -917,6 +918,11 @@
   padding-inline:20;
   padding-block: 50px;
   text-align: center;
+}
+
+.banner-header {
+  /* transform: translate(20%, 0); */
+  transition: all 0.5s ease-in-out;
 }
 
 .action-block {
@@ -963,10 +969,10 @@
   padding: 40px 16px;
 }
 
-.icon-scale {
+/* .icon-scale {
   transition: all 0.5s ease-in-out;
   transform: scale(0, 0);
-}
+} */
 
 .circle {
   position: absolute;
@@ -1041,14 +1047,17 @@
   overflow: hidden;
 }
 
-.accordion-item p::after {
-  content: "";
-  height: 100%;
-  aspect-ratio: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url('../icons/logo/icon_plus.svg') center/100% no-repeat;
+.accordion-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-show {
+  outline: 0;
+  border: 0;
+  background-color: inherit;
 }
 
 .acc-answer {
@@ -1146,7 +1155,7 @@
 @media (min-width: 991px) {
   .benefits-list-item:hover .benefits-list-icon {
     transform: scale(1.15, 1.15) !important;
-    opacity: 0.60;
+    opacity: 0.60 !important;
   }
 
   .benefits-list-item:hover .benefits-notice-title {

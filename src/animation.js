@@ -1,14 +1,26 @@
 const animate = [
     {
-        id:'benefits',
+        id: 'benefits',
         prntBlck: '.benefits', 
         strtLne: 'startLine1',
         nodeBlck: '.benefits-list-item',
         animate: {
-            icon: '.benefits-list-icon',
-            text: '.benefits-header'
+            icon: {
+                item: '.benefits-list-icon',
+                transition: {
+                    name: 'animation',
+                    value: 'icon-scale 0.5s ease-in-out'
+                }
+            },
+            text: {
+                item: '.benefits-header',
+                transition: {
+                    name: 'animation',
+                    value: 'from-right 0.5s ease-in-out'
+                }
+            },
         },
-        animation: 'icon-scale 0.5s ease-in-out'
+        effect: null,
     },    
     {
         id: 'capabilities',
@@ -16,19 +28,41 @@ const animate = [
         strtLne: 'startLine2',
         nodeBlck: '.capabilities-item',
         animate: null,
-        animation: '1'
-    },
-    {
-        id: 'work-process',
-        prntBlck: '.work-process', 
-        strtLne: 'startLine3',
-        nodeBlck: '.work-stages-item',
-        animate: {
-            icon: '.icon-scale',
+        effect: [
+            {
+                name: 'transform',
+                value: 'translate(0, 0%)',
+            },
+            {
+                name: 'opacity',
+                value: '1',
+            },
+        ],
 
-        },
-        animation: 'from-bottom-opacity 0.9s ease-in-out'
     },
+    // {
+    //     id: 'banner',
+    //     prntBlck: '.banner', 
+    //     strtLne: 'startLine3',
+    //     nodeBlck: '.banner-wrapper',
+    //     animate: {
+    //         icon: {
+    //             item: '.banner-header',
+    //             transition: {
+    //                 name: 'transform',
+    //                 value: 'translate(0%, 0%)'
+    //             }
+    //         },
+    //         text: {
+    //             item: '.action-block',
+    //             transition: {
+    //                 name: 'animation',
+    //                 value: 'from-right 0.5s ease-in-out'
+    //             }
+    //         },
+    //     },
+    //     effect: null,
+    // },
 ]
 
 window.addEventListener('scroll', () => {
@@ -37,49 +71,56 @@ window.addEventListener('scroll', () => {
 
         const prntBlck = document.querySelector(mainBlock.prntBlck);
         const strtLne = document.getElementById(mainBlock.strtLne);
-
-        console.log(document.documentElement.offsetHeight +":"+ (prntBlck.getBoundingClientRect().top + +strtLne.offsetTop + (+strtLne.offsetHeight / 2)))
-        if(document.documentElement.offsetHeight >= (prntBlck.getBoundingClientRect().top + +strtLne.offsetTop + (+strtLne.offsetHeight / 2))) {
+        
+        if(document.documentElement.offsetHeight >= (prntBlck.getBoundingClientRect().top + +strtLne.offsetTop + +(strtLne.offsetHeight / 3))) {
             const itemList = document.querySelectorAll(mainBlock.nodeBlck);
 
             Array.from(itemList).forEach((item, index) => {
-                animateFunc(item, index, mainBlock?.animate, mainBlock?.animation);
+                animateFunc(item, index, mainBlock?.animate, mainBlock?.effect);
             })
-            
         }
 
     })
 
-   
 })
 
-const animateFunc = (elem, index, hasElem, animation) => {
-    
-        if(hasElem === null) {
-           return elem.style.opacity = animation
+const animateFunc = (block, num, animateNode, animation) => {
+    const ndsBlck = animateNode ? animateNode : null;
+        if(ndsBlck) {
+            const blck1 = block.querySelectorAll(animateNode?.icon?.item);
+            const blck2 = block.querySelectorAll(animateNode?.text?.item);
+
+            Array.from(blck1).forEach((iconItem) => {
+                iconItem.style[animateNode?.icon?.transition?.name] = `${animateNode?.icon?.transition?.value} 0.${num}s forwards`;
+            })
+
+            Array.from(blck2).forEach((item) => {
+                item.style[animateNode?.text?.transition?.name] = `${animateNode?.text?.transition?.value} 0.${num}s forwards`;
+            })
+
+            return true;
         }
-            const icon = elem.querySelectorAll(hasElem.icon);
-            const text = elem.querySelectorAll(hasElem.text);
 
-            Array.from(icon).forEach((iconItem) => {
-                iconItem.style.transform = 'scale(1, 1)';
-                // iconItem.style.animation = animation;
-            })
-
-            Array.from(text).forEach((item) => {
-                item.style.animation = `from-right 0.5s ease-in-out 0.${index}s forwards`;
-            })
+        const anmtn = animation ? animation : null;
         
+        if(anmtn) {
+            Array.from(animation).forEach((item) => {
+                block.style[item.name] = item.value;
+            })
+
+            return true;
+        }
+
 }
-
-
 
 const accordion = document.getElementById('accordion');
 const accordionItems = accordion.querySelectorAll('.accordion-item');
 Array.from(accordionItems).forEach((item) => {
     item.addEventListener('click', () => {
+        const title = item.querySelector('.show-img');
         const answer = item.querySelectorAll('.acc-answer')[0];
-        
-            answer.style.maxHeight ? answer.style.maxHeight = null : answer.style.maxHeight = answer.scrollHeight + 'px';
+
+        answer.style.maxHeight ? answer.style.maxHeight = null : answer.style.maxHeight = answer.scrollHeight + 'px';
+        title.style.transform = answer.style.maxHeight ? 'rotate(45deg)' : 'rotate(0deg)'
     })
 })
