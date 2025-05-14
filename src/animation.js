@@ -38,7 +38,6 @@ const animate = [
                 value: '1',
             },
         ],
-
     },
     // {
     //     id: 'banner',
@@ -113,8 +112,10 @@ const animateFunc = (block, num, animateNode, animation) => {
 
 }
 
-const accordion = document.getElementById('accordion');
-const accordionItems = accordion.querySelectorAll('.accordion-item');
+const accordion = document.getElementById('accordion') || false;
+const accordionItems = accordion ? accordion.querySelectorAll('.accordion-item') : false;
+
+if(accordionItems) {
 Array.from(accordionItems).forEach((item) => {
     item.addEventListener('click', () => {
         const title = item.querySelector('.show-img');
@@ -124,3 +125,4 @@ Array.from(accordionItems).forEach((item) => {
         title.style.transform = answer.style.maxHeight ? 'rotate(45deg)' : 'rotate(0deg)'
     })
 })
+}
