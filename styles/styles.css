@@ -5,6 +5,35 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost/Jost-Medium.woff2') format('woff2'),
+        url('../fonts/Jost/Jost-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost/Jost-SemiBold.woff2') format('woff2'),
+        url('../fonts/Jost/Jost-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost/Jost-Regular.woff2') format('woff2'),
+        url('../fonts/Jost/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /**
   Нормализация блочной модели
  */
@@ -171,7 +200,7 @@
    [fill="none"],
    [fill^="url"]
  )) {
-   fill: currentColor;
+   fill: #000000;
  }
  
  /**
@@ -236,6 +265,8 @@
     --button-dark-blue: #2f4858;
 
     --font-family-base: 'Roboto', sans-serif;
+    --font-family-jost: "Jost", sans-serif;
+
     --font-size-base: 20px;
 
     --border-transparent: 1px solid rgba(0, 0, 0, 0.125);
@@ -552,6 +583,7 @@
 .button-item, .button-item-large {
   background-color: var(--color-gray-blue);
   color: #FFF;
+  border: 0;
   border-radius: var(--border-radius-base);
   padding: 8px 26px;
 }
@@ -1367,7 +1399,7 @@
 	 margin: 0;
 	 padding: 0;
 	 font-weight: 800;
-	 font-family: "Montserrat", sans-serif;
+	 font-family: var(--font-family-secondary);
 	 font-size: clamp(30px, 3.33vw, 50px);
 	 line-height: 50px;
 	 color: #181e28;
@@ -1377,7 +1409,7 @@
 	 padding: 0;
 }
  .card .card__body .featured_text p.sub {
-	 font-family: "Montserrat", sans-serif;
+	 font-family: var(--font-family-secondary);
 	 font-size: clamp(18px, 1.35vw, 24px);
 	 text-transform: uppercase;
 	 color: #686e77;
@@ -1385,7 +1417,7 @@
 	 margin-bottom: 5px;
 }
  .card .card__body .featured_text p.price {
-	 font-family: "Fjalla One", sans-serif;
+	 font-family: var(--font-family-opensans);
 	 color: #252525;
 	 font-size: 26px;
 }
@@ -1400,11 +1432,14 @@
 }
  .card .card__body .description {
 	 margin-bottom: 25px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
 }
 
 .description li {
 	 margin: 0;
-	 font-family: "Open Sans", sans-serif;
+	 font-family: var(--font-family-opensans);
 	 font-weight: 300;
 	 line-height: 27px;
 	 font-size: 16px;
@@ -1412,7 +1447,7 @@
 }
 
 .card .card__body span.stock {
-	 font-family: "Montserrat", sans-serif;
+	 font-family: var(--font-family-secondary);
 	 font-weight: 600;
 	 color: #a1cc16;
 }
@@ -1428,7 +1463,7 @@
 	 color: #f7c01b;
 }
  .card .card__body .reviews > span {
-	 font-family: "Open Sans", sans-serif;
+	 font-family: var(--font-family-opensans);
 	 font-size: 14px;
 	 margin-left: 5px;
 	 color: #555;
@@ -1456,7 +1491,7 @@
 }
  .card .card__footer .recommend p {
 	 margin: 0;
-	 font-family: "Montserrat", sans-serif;
+	 font-family: var(--font-family-secondary);
 	 text-transform: uppercase;
 	 font-weight: 600;
 	 font-size: 14px;
@@ -1465,23 +1500,23 @@
  .card .card__footer .recommend h3 {
 	 margin: 0;
 	 font-size: 20px;
-	 font-family: "Montserrat", sans-serif;
+	 font-family: var(--font-family-secondary);
 	 font-weight: 600;
 	 text-transform: uppercase;
 	 color: #115dd8;
 }
- .card .card__footer .action button {
+ .card .card__footer .action a {
 	 cursor: pointer;
 	 border: 1px solid #115dd8;
 	 padding: 14px 30px;
 	 border-radius: 200px;
 	 color: #fff;
 	 background: #115dd8;
-	 font-family: "Open Sans", sans-serif;
+	 font-family: var(--font-family-opensans);
 	 font-size: 16px;
 	 transition: 200ms;
 }
- .card .card__footer .action button:hover {
+ .card .card__footer .action a:hover {
 	 background: #fff;
 	 color: #115dd8;
 }
@@ -1718,7 +1753,6 @@
   .card__body {
     flex-direction: column;
   }
-
       /* Products style css */
 
   .select-category {

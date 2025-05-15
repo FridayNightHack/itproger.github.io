@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/review.css">
+    <link rel="stylesheet" href="./styles/splide/splide.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="notification">
+      <div class="notification-item container">
+        <p>Produced in Nanjing 100%</p>
+        <a href="tel:+8615061223314" class="notification-num">+86-15061223314</a>
+      </div>
+    </div>  
+    <header class="header">
+        <div class="header-item container">
+          <a href="./index.html">
+            <img 
+              src="./icons/logo/MasonCnc-logo.png" 
+              alt="MasonCnc"
+              loading="lazy"
+              >
+          </a>
+          <nav class="header-menu">
+            <label for="menu-toggle" class="menu-toggle">
+              <span class="visually-hidden">Open menu</span>
+              <span class="menu-icon"></span>
+              <span class="menu-icon"></span>
+              <span class="menu-icon"></span>
+              <input type="checkbox" id="menu-toggle" />
+            </label>
+            <ul class="header-menu-list bold-list" id="navSection">
+              <li class="header-menu-item"><a href="./index.html">Home</a></li>
+              <li class="header-menu-item"><a href='./products.html'>Machines</a></li>
+              <li class="header-menu-item"><a href="/">Industries</a></li>
+              <li class="header-menu-item"><a href="/">About</a></li>
+              <li class="header-menu-item"><a href="/">Contact Us</a></li>
+              <li class="header-menu-item"><button class="button-item" id="setLang">En</button></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main class="product-info">
+     <h1 class="visually-hidden">Product Name</h1>
+     <section class="machine-review margin-top">
+      <div class="review-sections container">
+        <h2 class="visually-hidden">Product main info</h2>
+        <div class="product-gallery">
+            <div class="product-main-img">
+                <div 
+                    class="splide" 
+                    aria-label="Product gallery"
+                >
+                  <div class="splide__track">
+		            <ul class="splide__list">
+			        <li class="splide__slide">
+                        <img src="https://duct.harsle.com/wp-content/uploads/2021/10/1.5-mm-TDF-Pneumatic-Folding-Machine1.png" alt="img 1">
+                    </li>
+			        <li class="splide__slide">
+                        <img src="https://duct.harsle.com/wp-content/uploads/2021/10/1.5-mm-TDF-Pneumatic-Folding-Machine2.png" alt="img 2">
+                    </li>
+			        <li class="splide__slide">
+                        <img src="https://duct.harsle.com/wp-content/uploads/2021/10/1.5-mm-TDF-Pneumatic-Folding-Machine.png" alt="img 3">
+                    </li>
+		            </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="product-slider">
+               <div
+                  id="thumbnail-carousel"
+                  class="splide"
+                  aria-label="The gallery thumbnails"
+                  >
+                    <div class="splide__track">
+		             <ul class="splide__list">
+			          <li class="splide__slide">
+				       <img src="https://duct.harsle.com/wp-content/uploads/2021/10/1.5-mm-TDF-Pneumatic-Folding-Machine1.png" alt="">
+			          </li>
+			          <li class="splide__slide">
+				       <img src="https://duct.harsle.com/wp-content/uploads/2021/10/1.5-mm-TDF-Pneumatic-Folding-Machine2.png" alt="">
+			          </li>
+			          <li class="splide__slide">
+				      <img src="https://duct.harsle.com/wp-content/uploads/2021/10/1.5-mm-TDF-Pneumatic-Folding-Machine.png" alt="">
+			          </li>
+		             </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="nav-items">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs-item">
+                        <a href="#" class="breadcrumbs-link">Home</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a href="#" class="breadcrumbs-link">Folding Machine</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a href="#" class="breadcrumbs-link active">1.5mm TDF Pneumatic Folding Machine</a>
+                    </li>
+                </ul>
+            </div>
+            <h3 class="product-name">1.5 mm TDF Pneumatic Folding Machine</h3>
+            <p class="main-details">
+             Pneumatic TDF folding machine is very important for duct production, The weight and the volume of the device itself are not large, and this machine is very easy to move to anywhere, which means it can work anywhere.
+            </p>
+            <ul class="info-list">
+                <li class="info-items">Max thickness (mm): 1.5</li>
+                <li class="info-items">Max Max width (mm): 2500</li>
+                <li class="info-items">Min folding angle: 60°</li>
+                <li class="info-items">Power mode: pneumatic</li>
+            </ul>
+            <a href="#" class="request-button">Add to Quote</a>
+        </div>
+      </div>
+     </section>
+    </main>
+    <footer class="footer">
+          <div class="footer-main container">
+            <div class="footer-main-inner">
+              <div class="footer-left-inner">
+              <header class="footer-logo">
+                <a href="./index.html">
+                <img 
+                  src="./icons/logo/MasonCnc-logo.png" 
+                  alt="MasonCnc"
+                  class="footer-logo-img"
+                  width="200"
+                  height="50"
+                  loading="lazy"
+                  >
+                  </a>
+              </header>
+                <ul class="footer-menu-list">
+                  <li class="footer-menu-item"><a href="./index.html">Home</a></li>
+                  <li class="footer-menu-item"><a href="./products.html">Machines</a></li>
+                  <li class="footer-menu-item"><a href="/">Industries</a></li>
+                  <li class="footer-menu-item"><a href="/">About</a></li>
+                  <li class="footer-menu-item"><a href="./contact-us.html">Contact Us</a></li>
+                </ul>
+                </div>
+                <div class="footer-right-inner">
+              <div class="footer-contact">
+                <div class="footer-address">
+                  <p class="footer-a-light">Address:</p>
+                  <address class="address">No.1010-2, Taihang Mountain Road, Bowang Town, Bowang District, Maanshan, Anhui, China</address>
+                </div>
+                <div class="footer-address">
+                  <p class="footer-a-light">Contact:</p>
+                  <ul class="foote-menu-list">
+                    <li>
+                      <a href="tel:+8615061223314" class="alternate-link">+86-15061223314</a>
+                    </li>
+                    <li>
+                      <a href="mailto:judy@mason-machine.com" class="alternate-link">judy@mason-machine.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="footer-extra margin-big">
+              <div class="footer-copyright">
+                © <time datetime="2024">2024</time>Mason CNC Machinery Co.,Ltd.
+              </div>
+               <div class="footer-soc1als">
+                <ul class="footer-soc1als-list">
+                  <li class="footer-soc1als-item">
+                    <a class="footer-soc1als-link" href="https://www.tiktok.com/tiktokstudio/content" target="_blank">
+                      <img src="./icons/tiktok-svgrepo-com.svg" alt="tiktok" >
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item">
+                    <a class="footer-soc1als-link" href="https://www.youtube.com/channel/UCfFsaJAhN-psEMfjIkhmMgA" target="_blank">
+                     <img src="./icons/youtube-color-svgrepo-com.svg" alt="youtube">
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item">
+                    <a class="footer-soc1als-link" href="" target="_blank">
+                      <img src="./icons/instagram-svgrepo-com.svg" alt="instagram">
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item">
+                    <a class="footer-soc1als-link" href="https://www.facebook.com/profile.php?id=61572889269140" target="_blank">
+                     <img src="./icons/facebook-network-communication-internet-interaction-svgrepo-com.svg" alt="facebook">
+                    </a>
+                  </li>
+                  <li class="footer-soc1als-item">
+                    <a class="footer-soc1als-link" href="tel:+8615061223314">
+                      <img src="./icons/whatsapp-svgrepo-com (1).svg" alt="whatsapp">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <script src="./src/animation.js"></script>
+    <script src="./src/translator.js"></script>
+    <script src="./src/splide.min.js"></script>
+    <script>
+       document.addEventListener( 'DOMContentLoaded', function () {
+        var main = new Splide( '.splide', {
+        width: '100%',
+        rewind    : true,
+        pagination: false,
+        arrows    : false,
+    } );
+
+    var thumbnails = new Splide( '#thumbnail-carousel', {
+    fixedWidth  : 100,
+    height : '100%',
+    gap         : 10,
+    rewind      : false,
+    pagination  : false,
+    isNavigation: true,
+    breakpoints : {
+      600: {
+        fixedWidth : 60,
+        fixedHeight: '100%',
+      },
+    },
+  } );
+
+  main.sync( thumbnails );
+  main.mount();
+  thumbnails.mount();
+} );
+    </script>
+
+  </body>
+</html>
