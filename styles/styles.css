@@ -6,33 +6,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Jost';
-    src: url('../fonts/Jost/Jost-Medium.woff2') format('woff2'),
-        url('../fonts/Jost/Jost-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Jost';
-    src: url('../fonts/Jost/Jost-SemiBold.woff2') format('woff2'),
-        url('../fonts/Jost/Jost-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Jost';
-    src: url('../fonts/Jost/Jost-Regular.woff2') format('woff2'),
-        url('../fonts/Jost/Jost-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 /**
   Нормализация блочной модели
@@ -265,11 +238,13 @@
     --button-dark-blue: #2f4858;
 
     --font-family-base: 'Roboto', sans-serif;
-    --font-family-jost: "Jost", sans-serif;
+    --font-family-secondary: "Montserrat", sans-serif;
+    --font-family-opensans: "Open Sans", sans-serif;
 
     --font-size-base: 20px;
 
     --border-transparent: 1px solid rgba(0, 0, 0, 0.125);
+
     --border-radius-base: .5rem;
     --border-radius-small: 0.2rem;
 
@@ -306,8 +281,14 @@
   margin-bottom: 24px;
 }
 
-.header-small {
+.header-small,
+.header-small-padding {
   font-size: 24px;
+}
+
+.header-small-padding {
+  margin-bottom: 20px;
+  color: #242424
 }
 
 .header-medium {
@@ -1437,10 +1418,10 @@
    row-gap: 20px;
 }
 
-.description li {
+.desc-li {
 	 margin: 0;
-	 font-family: var(--font-family-opensans);
-	 font-weight: 300;
+	 font-family: var(--font-family-jost);
+	 font-weight: normal;
 	 line-height: 27px;
 	 font-size: 16px;
 	 color: #555;
