@@ -268,6 +268,8 @@
     --font-family-secondary: "Montserrat", sans-serif;
     --font-family-opensans: "Open Sans", sans-serif;
     --font-family-jost: "Jost", sans-serif;
+    --font-family-secondary: "Montserrat", sans-serif;
+    --font-family-opensans: "Open Sans", sans-serif;
 
     --font-size-base: 20px;
 
@@ -510,12 +512,6 @@
     padding-inline: var(--container-padding-x);
  }
 
- .container-wide {
-  max-width: calc(var(--container-width) + (var(--container-padding-x) * 2));
-  margin-inline: auto;
-  padding-inline: var(--container-padding-x);
-}
-
 .container-small {
   max-width: calc(var(--container-width-small) + (var(--container-padding-x) * 2));
   margin-inline: auto;
@@ -698,6 +694,7 @@
 .main-item {
   /* throw attention how height property defines it's not professionally */
   /* min-height: calc(100vh - 104px); */
+  width: 100%;
   position: relative;
   column-gap: 60px;
 }
@@ -728,7 +725,7 @@
 }
 
 .intro-header {
-  font-size: clamp(40px, 4.61vw, 72px);
+  font-size: clamp(30px, 4.61vw, 60px);
   margin-bottom: var(--p-padding);
 }
 
@@ -1740,7 +1737,7 @@
   }
 
   .intro-description p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .main-item-background {
