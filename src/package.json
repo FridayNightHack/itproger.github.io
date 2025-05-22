@@ -1,0 +1,1378 @@
+{
+    "Auto Duct Line": [
+        {
+            "name": "Auto Duct Line II",
+            "img": "./machines/auto-duct-1/Auto Duct Line I/background.png",
+            "alternateimg": [
+                "./machines/auto-duct-1/Auto Duct Line I/auto2.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/auto-duct-1/Auto Duct Line I/_+++1.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++2.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++3.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++4.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++5.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++6.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++7.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++9.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++8.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/_+++10.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/1.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/2.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/3.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/4.jpg",
+                "./machines/auto-duct-1/Auto Duct Line I/5.jpg"
+            ],
+            "features": [
+                "One electric coil cradle (two material trays)",
+                "One set leveling and beading equipment",
+                "Hydraulic angle-shearing machine with four sets of die",
+                "Hydraulic sheet-shearing machine",
+                "A set of CNC computer control system and production software"
+            ]
+        },
+        {
+            "name": "Auto Duct Line III",
+            "img": "./machines/auto-duct-2/Auto Duct Line II/background.png",
+            "alternateimg": [
+                "./machines/auto-duct-2/Auto Duct Line II/auto2.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/auto-duct-2/Auto Duct Line II/_+++1.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++2.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++3.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++4.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++5.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++6.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++7.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++8.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++9.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++10.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++11.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/_+++12.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/1.jpg",
+                "./machines/auto-duct-2/Auto Duct Line II/2.jpg"
+            ],
+            "features": [
+                "One electric coil cradle (two material trays)",
+                "One set leveling and beading equipment",
+                "Hydraulic angle-shearing machine with four sets of die",
+                "Hydraulic sheet-shearing machine",
+                "A set of CNC computer control system and production software"
+            ]
+        },
+        {
+            "name": "Auto Duct Line IV",
+            "img": "./machines/auto-duct-3/Auto Duct Line III/img/background.png",
+            "video": [
+                "./machines/auto-duct-3/Auto Duct Line III/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/auto-duct-3/Auto Duct Line III/img/auto2.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++ 2.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++1.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++3.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++4.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++5.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++6.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++7.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++8.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++9.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++10.jpg",
+                "./machines/auto-duct-3/Auto Duct Line III/img/_+++11.jpg"
+            ],
+            "features": [
+                "Beijing Huade+Hydraulic system from Taiwan.",
+                "Japan Omron encoder.",
+                "Japan Mitsubishi CNC system",
+                "Germany Schneider electrical system."
+            ]
+        },
+        {
+            "name": "Auto Duct Line V",
+            "img": "./machines/auto-duct-4/Auto Duct Line V/background.png",
+            "alternateimg": [
+                "./machines/auto-duct-4/Auto Duct Line V/auto2.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/auto-duct-4/Auto Duct Line V/_+++1.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/_+++2.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/_+++3.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/_+++4.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/_+++5.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/_+++6.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/_+++7.jpg",
+                "./machines/auto-duct-4/Auto Duct Line V/8.jpg"
+            ],
+            "features": [
+                "The linear structure of machine makes processing smoothly and occupies a small space.",
+                "All the rolling reels are made of bearing steel so that the lifetime prolongs by more than 5 times.",
+                "Under the material-saving mode of CNC system, waste is less than 20 mm per roll.",
+                "The locating system is very accurate with servo feeding mechanism, especially when processing square-shaped pipes."
+            ]
+        },
+        {
+            "name": "U Shape Auto Duct Line V",
+            "img": "./machines/auto-duct-5/U shape Auto Duct Line V/img/background.png",
+            "video": [
+                "./machines/auto-duct-5/U shape Auto Duct Line V/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/auto-duct-5/U Shape Auto Duct Line V/img/auto2.jpg",
+                "./machines/auto-duct-5/U Shape Auto Duct Line V/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+1.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+2.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+3.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+4.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+5.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+6.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+7.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+8.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+9.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+10.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+11.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+12.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+13.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+14.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+15.jpg",
+                "./machines/auto-duct-5/U shape Auto Duct Line V/img/_+++_+16.jpg"
+            ],
+            "features": [
+                "During feeding mechanism with pneumatic servo, manipulator helps to ensure stability and speed of the machine, and the accuracy of its locating system.",
+                "It only takes 20-25 seconds to make one L-shaped workpiece and the efficiency will double compared with the linear type.",
+                "Without moving back and forth the fixed locking machine is able to improve the efficiency."
+            ]
+        }
+    ],
+    "Spyral Duct Machine": [
+        {
+            "name": "BYL - 1500 Spiral Duct Machine",
+            "img": "./machines/BYL-1500 Spiral Duct Machine/background.png",
+            "alternateimg": [
+                "./machines/BYL-1500 Spiral Duct Machine/auto1.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/auto2.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/BYL-1500 Spiral Duct Machine/_+++1.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++2.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++3.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++4.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++5.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++6.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++7.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++8.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++9.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++10.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++11.jpg",
+                "./machines/BYL-1500 Spiral Duct Machine/_+++12.jpg"
+            ],
+            "features": [
+                "Line S / line 7 beading machines are used to make reinforced ribs in the duct area, and it can output 5 or 7 reinforced ribs at one time. Customer can customize multiple-line beading machine"
+            ]
+        },
+        {
+            "name": "BYL - 1600 Spiral Duct Machine",
+            "img": "./machines/BYL-1600 Spiral Duct Machine/background.png",
+            "alternateimg": [
+                "./machines/BYL-1600 Spiral Duct Machine/auto1.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/auto2.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/BYL-1600 Spiral Duct Machine/_+++1.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++2.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++3.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++4.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++5.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++7.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++6.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++8.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++9.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++10.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++11.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++12.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++13.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++14.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++15.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++16.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++17.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++18.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++19.jpg",
+                "./machines/BYL-1600 Spiral Duct Machine/_+++20.jpg"
+            ],
+            "features": [
+                "It's a brand new design which can keep angle steel tailing less than 350mm",
+                "It's controlled by servo motor and its feeding dimensions are accurate",
+                "It only requires to input the size of workpiece, distance between holes and how many holes to punch when programming which is very easy to operate",
+                "With production memory functions, the production orders can be tracked and checked",
+                "The new design mold can complete the angle steel switching within 5 seconds, with the durable punch"
+            ]
+        }
+    ],
+    "CNC Plasma Cutting Machine": [
+        {
+            "name": "CNC Plasma Cutting Machine",
+            "img": "./machines/CNC Plasma Cutting Machine/img/background.png",
+            "video": [
+                "./machines/CNC Plasma Cutting Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/CNC Plasma Cutting Machine/img/auto2.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/auto3.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/auto4.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/CNC Plasma Cutting Machine/img/_+++1.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++2.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++3.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++4.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++5.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++6.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++7.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++8.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++9.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++10.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++11.jpg",
+                "./machines/CNC Plasma Cutting Machine/img/_+++12.jpg"
+            ],
+            "features": [
+                "Vertical control cabinet with 10 inch touch screen (15 inch screen is optional)",
+                "New version of CAM-DUCT software from Hypertherm of United States and encrypting Chinese version",
+                "Original generator of Hypertherm of United States or homemade generator of Huayuan (economy version)"
+            ]
+        }
+    ],
+    "Folding Machine": [
+        {
+            "name": "Electric folding machine",
+            "img": "./machines/folding-machine/Electric folding machine/background.png",
+            "alternateimg": [
+                "./machines/folding-machine/Electric folding machine/auto2.webp",
+                "./machines/folding-machine/Electric folding machine/auto3.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Electric folding machine/1.webp",
+                "./machines/folding-machine/Electric folding machine/2.webp",
+                "./machines/folding-machine/Electric folding machine/3.webp",
+                "./machines/folding-machine/Electric folding machine/4.webp",
+                "./machines/folding-machine/Electric folding machine/5.webp",
+                "./machines/folding-machine/Electric folding machine/6.webp",
+                "./machines/folding-machine/Electric folding machine/7.webp",
+                "./machines/folding-machine/Electric folding machine/8.webp",
+                "./machines/folding-machine/Electric folding machine/9.webp",
+                "./machines/folding-machine/Electric folding machine/11.webp",
+                "./machines/folding-machine/Electric folding machine/10.webp",
+                "./machines/folding-machine/Electric folding machine/12.webp",
+                "./machines/folding-machine/Electric folding machine/13.webp",
+                "./machines/folding-machine/Electric folding machine/14.webp",
+                "./machines/folding-machine/Electric folding machine/15.webp",
+                "./machines/folding-machine/Electric folding machine/16.webp",
+                "./machines/folding-machine/Electric folding machine/17.webp",
+                "./machines/folding-machine/Electric folding machine/18.webp",
+                "./machines/folding-machine/Electric folding machine/19.webp"
+            ],
+            "features": [
+                "High Precision: Delivers accurate, clean folds every time.",
+                "Durable Construction: Built to withstand heavy-duty use in industrial environments.",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Hydraulic Folding Machine",
+            "img": "./machines/folding-machine/Hydraulic folding Machine/img/background.png",
+            "video": [
+                "./machines/folding-machine/Hydraulic folding Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/folding-machine/Hydraulic folding Machine/img/auto2.webp",
+                "./machines/folding-machine/Hydraulic folding Machine/img/auto3.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++1.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++2.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++3.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++4.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++5.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++6.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++7.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++8.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++9.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++10.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++11.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/-+++12.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/1.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/2.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/3.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/7.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/4.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/8.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/9.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/11.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/12.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/13.webp",
+                "./machines/folding-machine/Hydraulic folding machine/img/14.webp"
+            ],
+            "features": [
+                "The Hydraulic Sheet Folding Machine is designed for precise and efficient folding of various sheet metals, ideal for creating pans and boxes. With its robust hydraulic system, this machine ensures smooth operation and high accuracy in bends. Its user-friendly interface and durable construction make it suitable for both small and large-scale production, providing reliable performance in diverse metal fabrication applications.",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Manual Folding Machine",
+            "img": "./machines/folding-machine/Manual Folding Machine/background.png",
+            "alternateimg": [
+                "./machines/folding-machine/Manual Folding Machine/auto2.webp",
+                "./machines/folding-machine/Manual Folding Machine/auto3.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Manual Folding Machine/-+++1.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++2.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++3.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++4.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++5.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++6.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++7.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++8.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++9.webp",
+                "./machines/folding-machine/Manual Folding Machine/-+++10.webp"
+            ],
+            "features": [
+                "Manual folding machine is one of the modern sheet metal processing equipment, professional for thin plate bending process, has the advantages of light weight, simple operation, convenient transportation, more suitable for short-term temproary site bending processing, can be used in any environment. The length can be based on user customized",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Manual Half TDF Folding Machine",
+            "img": "./machines/folding-machine/Manual Half TDF Folding Machine/background.png",
+            "alternateimg": [
+                "./machines/folding-machine/Manual Half TDF Folding Machine/auto2.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/auto3.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++1.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++2.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++3.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++4.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++5.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++6.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++7.webp"
+            ],
+            "features": [
+                "Manual folding machine is one of the modern sheet metal processing equipment, professional for thin plate bending process, has the advantages of light weight, simple operation, convenient transportation, more suitable for short-term temproary site bending processing, can be used in any environment. The length can be based on user customized",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Manual TDF Folding Machine",
+            "img": "./machines/folding-machine/Manual TDF Folding Machine/img/background.png",
+            "video": [
+                "./machines/folding-machine/Manual TDF Folding Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/folding-machine/Manual TDF Folding Machine/img/auto2.webp",
+                "./machines/folding-machine/Manual TDF Folding Machine/img/auto3.webp",
+                "./machines/folding-machine/Manual TDF Folding Machine/img/auto4.webp",
+                "./machines/folding-machine/Manual TDF Folding Machine/img/auto5.webp",
+                "./machines/folding-machine/Manual TDF Folding Machine/img/auto6.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++1.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++2.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++3.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++4.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++5.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++6.webp",
+                "./machines/folding-machine/Manual Half TDF Folding Machine/-+++7.webp"
+            ],
+            "features": [
+                "Manual folding machine is one of the modern sheet metal processing equipment, professional for thin plate bending process, has the advantages of light weight, simple operation, convenient transportation, more suitable for short-term temproary site bending processing, can be used in any environment. The length can be based on user customized",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Pneumatic Folding Machine",
+            "img": "./machines/folding-machine/Pneumatic Folding Machine/background.png",
+            "alternateimg": [
+                "./machines/folding-machine/Pneumatic Folding Machine/auto2.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/auto3.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++1.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++2.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++3.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++4.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++5.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++6.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++7.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++8.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++9.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++10.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++11.webp",
+                "./machines/folding-machine/Pneumatic Folding Machine/-+++12.webp"
+            ],
+            "features": [
+                "Manual folding machine is one of the modern sheet metal processing equipment, professional for thin plate bending process, has the advantages of light weight, simple operation, convenient transportation, more suitable for short-term temproary site bending processing, can be used in any environment. The length can be based on user customized",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Pneumatic semi-common plate flanging machine",
+            "img": "./machines/folding-machine/Pneumatic semi-common plate flanging machine/background.png",
+            "alternateimg": [
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/auto2.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/auto3.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/1.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/2.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/3.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/4.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/5.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/6.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/7.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/8.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/9.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/10.webp",
+                "./machines/folding-machine/Pneumatic semi-common plate flanging machine/11.webp"
+            ],
+            "features": [
+                "Pneumatic semi-common plate flanging machine folding machine is one of the modern sheet metal processing equipment, professional for thin plate bending process, has the advantages of light weight, simple operation, convenient transportation, more suitable for short-term temproary site bending processing, can be used in any environment. The length can be based on user customized",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        },
+        {
+            "name": "Pneumatic TDF Folding machine",
+            "img": "./machines/folding-machine/Pneumatic TDF Folding Machine/img/background.png",
+            "video": [
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/auto2.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/auto3.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/auto4.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/auto5.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/auto6.webp"
+            ],
+            "imgcatalog": [
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++1.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++2.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++3.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++4.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++5.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++6.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++7.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++8.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++9.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++10.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++11.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++12.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++13.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++14.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++15.webp",
+                "./machines/folding-machine/Pneumatic TDF Folding Machine/img/-+++16.webp"
+            ],
+            "features": [
+                "Pneumatic semi-common plate flanging machine folding machine is one of the modern sheet metal processing equipment, professional for thin plate bending process, has the advantages of light weight, simple operation, convenient transportation, more suitable for short-term temproary site bending processing, can be used in any environment. The length can be based on user customized",
+                "Efficient Operation: Increases production speed while reducing labor costs.",
+                "User-Friendly Interface: Easy to set up and operate, reducing downtime.",
+                "Versatile: Suitable for various steel door manufacturing applications."
+            ]
+        }
+    ],
+    "Lock Machine": [
+        {
+            "name": "Lock Machine",
+            "img": "./machines/lock-machine/2mm lock machine/img/background.png",
+            "video": [
+                "./machines/lock-machine/2mm lock machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/lock-machine/2mm lock machine/img/auto2.webp",
+                "./machines/lock-machine/2mm lock machine/img/auto3.webp",
+                "./machines/lock-machine/2mm lock machine/img/auto4.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/2mm lock machine/img/-+++1.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++2.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++3.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++5.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++4.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++6.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++7.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++8.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++9.webp",
+                "./machines/lock-machine/2mm lock machine/img/-+++10.webp"
+            ],
+            "features": [
+                "The machine can process a variety of the shapes in the ventilation fields.",
+                "The machine can process the galavanized sheet from 0.5mm to 1.5mm.",
+                "The machine can produce seven shapes comparing to traditional one.",
+                "The machine is simple in structure, easy for operation, and can meet specified needs of customers"
+            ]
+        },
+        {
+            "name": "Double Linkage lock machine",
+            "img": "./machines/lock-machine/Double linkage lock machine/img/background.png",
+            "video": [
+                "./machines/lock-machine/Double linkage lock machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/lock-machine/Double linkage lock machine/img/auto2.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/auto3.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/auto4.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/Double linkage lock machine/img/1.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/2.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/3.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/4.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/5.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/6.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/7.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/8.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/9.webp",
+                "./machines/lock-machine/Double linkage lock machine/img/10.webp"
+            ],
+            "features": [
+                "The double linkage TDF flange machine completes the forming of the common plate flange at both ends of the duct at one time",
+                "TDF flange is formed on both sides at the same time, and the width of the processing plate can be adjusted between 600-1500mm",
+                "Double screw lock",
+                "processing speed：14m/min"
+            ]
+        },
+        {
+            "name": "Multi - function lock machine",
+            "img": "./machines/lock-machine/Multi-function lock machine/img/background.png",
+            "video": [
+                "./machines/lock-machine/Multi-function lock machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/lock-machine/Multi-function lock machine/img/auto2.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto3.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto4.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/Multi-function lock machine/img/auto5.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto6.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto7.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto8.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto9.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto10.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto11.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto12.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto13.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto14.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto15.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto16.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto17.webp",
+                "./machines/lock-machine/Multi-function lock machine/img/auto18.webp"
+            ],
+            "features": [
+                "Locking machine is necessary in duct area because it can produce all kinds of types to meet locking requirements. Standard machine can process 0.5-1.5mm galvanized sheet metal, and our company would specially introduce high-strength rolling reels made of GCr15, a kind of steel which prolongs the machine life by more than 5 times and improve the efficiency dramatically"
+            ]
+        },
+        {
+            "name": "Round elbow lock machine",
+            "img": "./machines/lock-machine/Round elbow lock machine/img/background.png",
+            "video": [
+                "./machines/lock-machine/Round elbow lock machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/lock-machine/Round elbow lock machine/img/auto2.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/auto3.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/auto4.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/Round elbow lock machine/img/-+++1.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++2.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++3.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++4.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++5.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++6.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++7.webp",
+                "./machines/lock-machine/Round elbow lock machine/img/-+++8.webp"
+            ],
+            "features": [
+                "Locking machine is necessary in duct area because it can produce all kinds of types to meet locking requirements. Standard machine can process 0.5-1.5mm galvanized sheet metal, and our company would specially introduce high-strength rolling reels made of GCr15, a kind of steel which prolongs the machine life by more than 5 times and improve the efficiency dramatically"
+            ]
+        },
+        {
+            "name": "S Lock Machine",
+            "img": "./machines/lock-machine/S Lock Machine/background.png",
+            "alternateimg": [
+                "./machines/lock-machine/S Lock Machine/auto2.webp",
+                "./machines/lock-machine/S Lock Machine/auto3.webp",
+                "./machines/lock-machine/S Lock Machine/auto4.webp",
+                "./machines/lock-machine/S Lock Machine/auto5.webp",
+                "./machines/lock-machine/S Lock Machine/auto6.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/S Lock Machine/-+++2.webp",
+                "./machines/lock-machine/S Lock Machine/-+++3.webp",
+                "./machines/lock-machine/S Lock Machine/-+++4.webp",
+                "./machines/lock-machine/S Lock Machine/-+++5.webp",
+                "./machines/lock-machine/S Lock Machine/-+++6.webp",
+                "./machines/lock-machine/S Lock Machine/-+++7.webp",
+                "./machines/lock-machine/S Lock Machine/-+++8.webp",
+                "./machines/lock-machine/S Lock Machine/-+++9.webp",
+                "./machines/lock-machine/S Lock Machine/-+++10.webp",
+                "./machines/lock-machine/S Lock Machine/+1.webp",
+                "./machines/lock-machine/S Lock Machine/+2.webp",
+                "./machines/lock-machine/S Lock Machine/+3.webp",
+                "./machines/lock-machine/S Lock Machine/+4.webp",
+                "./machines/lock-machine/S Lock Machine/+5.webp",
+                "./machines/lock-machine/S Lock Machine/+6.webp",
+                "./machines/lock-machine/S Lock Machine/+7.webp",
+                "./machines/lock-machine/S Lock Machine/-+++1.webp"
+            ],
+            "features": [
+                "S lock machine is made of two kinds of ventilation pipe connection flange of the wind industry, the products with high quality finishing roller, high quality motor, high precision bearings, heavy-duty chassis; sturdy, shaft after grinding, welding steel structure bracket, ensure the machine efficiency and long life, cost saving you"
+            ]
+        },
+        {
+            "name": "Single Flat Mouth Lock Machine",
+            "img": "./machines/lock-machine/Single lock machine/img/background.png",
+            "video": [
+                "./machines/lock-machine/Single lock machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/lock-machine/Single lock machine/img/auto2.webp",
+                "./machines/lock-machine/Single lock machine/img/auto3.webp",
+                "./machines/lock-machine/Single lock machine/img/auto4.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/Single lock machine/img/-+++1.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++3.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++4.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++5.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++6.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++7.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++8.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++9.webp",
+                "./machines/lock-machine/Single lock machine/img/-+++10.webp",
+                "./machines/lock-machine/Single lock machine/img/2.webp",
+                "./machines/lock-machine/Single lock machine/img/3.webp",
+                "./machines/lock-machine/Single lock machine/img/4.webp",
+                "./machines/lock-machine/Single lock machine/img/5.webp",
+                "./machines/lock-machine/Single lock machine/img/6.webp",
+                "./machines/lock-machine/Single lock machine/img/9.webp",
+                "./machines/lock-machine/Single lock machine/img/10.webp",
+                "./machines/lock-machine/Single lock machine/img/11.webp"
+            ],
+            "features": [
+                "S lock machine is made of two kinds of ventilation pipe connection flange of the wind industry, the products with high quality finishing roller, high quality motor, high precision bearings, heavy-duty chassis; sturdy, shaft after grinding, welding steel structure bracket, ensure the machine efficiency and long life, cost saving you"
+            ]
+        },
+        {
+            "name": "Snap Lock Machine",
+            "img": "./machines/lock-machine/Snap Lock Machine/img/background.png",
+            "video": [
+                "./machines/lock-machine/Snap Lock Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/lock-machine/Snap Lock Machine/img/auto2.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/auto3.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/auto4.webp"
+            ],
+            "imgcatalog": [
+                "./machines/lock-machine/Snap Lock Machine/img/1.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/2.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/3.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/4.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/5.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/6.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/7.webp",
+                "./machines/lock-machine/Snap Lock Machine/img/8.webp"
+            ],
+            "features": [
+                "Snap lock machine is station with two seams, two bite used for wind pipe linking.Machinable plate thickness 0.4-1.0 mm, the machine is nine rows of molding roller, production speed up to 18 meters / points, the traditional production of more than a few times"
+            ]
+        }
+    ],
+    "Other Machines": [
+        {
+            "name": "Beading Machine",
+            "img": "./machines/Beading Machine/img/background.png",
+            "video": [
+                "./machines/Beading Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Beading Machine/img/auto2.jpg",
+                "./machines/Beading Machine/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Beading Machine/img/4.jpg",
+                "./machines/Beading Machine/img/5.jpg",
+                "./machines/Beading Machine/img/6.jpg",
+                "./machines/Beading Machine/img/1.jpg",
+                "./machines/Beading Machine/img/2.jpg"
+            ],
+            "features": [
+                "Line S / line 7 beading machines are used to make reinforced ribs in the duct area, and it can output 5 or 7 reinforced ribs at one time. Customer can customize multiple-line beading machine"
+            ]
+        },
+        {
+            "name": "DCH - 1250 Hydraulic Elbow Machine",
+            "img": "./machines/DCH-1250 Hydraulic Elbow Machine/img/background.png",
+            "video": [
+                "./machines/DCH-1250 Hydraulic Elbow Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/auto2.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/auto3.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/auto4.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++_+1.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++1.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++2.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++3.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++4.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++5.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++6.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++7.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++8.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++9.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++10.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++11.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++12.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++13.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++14.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++15.jpg",
+                "./machines/DCH-1250 Hydraulic Elbow Machine/img/_+++16.jpg"
+            ],
+            "features": [
+                "It's a brand new design which can keep angle steel tailing less than 350mm"
+            ]
+        },
+        {
+            "name": "Duct Seam Closer",
+            "img": "./machines/Duct Seam Closer/background.png",
+            "alternateimg": [
+                "./machines/Duct Seam Closer/auto1.jpg",
+                "./machines/Duct Seam Closer/auto2.jpg",
+                "./machines/Duct Seam Closer/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Duct Seam Closer/_+++1.jpg",
+                "./machines/Duct Seam Closer/_+++2.jpg",
+                "./machines/Duct Seam Closer/_+++3.jpg",
+                "./machines/Duct Seam Closer/_+++4.jpg",
+                "./machines/Duct Seam Closer/_+++5.jpg",
+                "./machines/Duct Seam Closer/_+++6.jpg",
+                "./machines/Duct Seam Closer/_+++7.jpg",
+                "./machines/Duct Seam Closer/_+++8.jpg",
+                "./machines/Duct Seam Closer/_+++9.jpg"
+            ],
+            "features": [
+                "The traditional wind pipe joint by vertical roller bending forming to both ends of bone, occlusal flange, reel bone machine will be the traditional wind pipe joint 'three steps' to be made one, save labor and production costs"
+            ]
+        },
+        {
+            "name": "Electric Angle Rolling Machine",
+            "img": "./machines/Electric Angle Rolling Machine/img/background.png",
+            "video": [
+                "./machines/Electric Angle Rolling Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Electric Angle Rolling Machine/img/auto2.jpg",
+                "./machines/Electric Angle Rolling Machine/img/auto3.jpg",
+                "./machines/Electric Angle Rolling Machine/img/auto1.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Electric Angle Rolling Machine/img/_+++1.jpg",
+                "./machines/Electric Angle Rolling Machine/img/_+++2.jpg",
+                "./machines/Electric Angle Rolling Machine/img/_+++3.jpg",
+                "./machines/Electric Angle Rolling Machine/img/_+++4.jpg",
+                "./machines/Electric Angle Rolling Machine/img/_+++5.jpg"
+            ],
+            "features": [
+                "it's used for rounding angle steel flange and 40Cr steel with overall heat treatment makes the machine more durable"
+            ]
+        },
+        {
+            "name": "Electric Elbow Making Machine",
+            "img": "./machines/Electric Elbow Making Machine/background.png",
+            "alternateimg": [
+                "./machines/Electric Elbow Making Machine/auto1.jpg",
+                "./machines/Electric Elbow Making Machine/auto2.jpg",
+                "./machines/Electric Elbow Making Machine/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Electric Elbow Making Machine/_+++1.jpg",
+                "./machines/Electric Elbow Making Machine/_+++2.jpg",
+                "./machines/Electric Elbow Making Machine/_+++3.jpg",
+                "./machines/Electric Elbow Making Machine/_+++4.jpg",
+                "./machines/Electric Elbow Making Machine/_+++5.jpg",
+                "./machines/Electric Elbow Making Machine/_+++6.jpg",
+                "./machines/Electric Elbow Making Machine/_+++7.jpg",
+                "./machines/Electric Elbow Making Machine/_+++8.jpg",
+                "./machines/Electric Elbow Making Machine/_+++9.jpg",
+                "./machines/Electric Elbow Making Machine/_+++10.jpg",
+                "./machines/Electric Elbow Making Machine/_+++11.jpg",
+                "./machines/Electric Elbow Making Machine/_+++12.jpg",
+                "./machines/Electric Elbow Making Machine/_+++13.jpg",
+                "./machines/Electric Elbow Making Machine/_+++14.jpg",
+                "./machines/Electric Elbow Making Machine/_+++15.jpg",
+                "./machines/Electric Elbow Making Machine/_+++16.jpg",
+                "./machines/Electric Elbow Making Machine/_+++17.jpg"
+            ],
+            "features": [
+                "It's used for rounding angle steel flange and 40Cr steel with overral heat treatment makes the machine more durable"
+            ]
+        },
+        {
+            "name": "Electric Shearing Machine",
+            "img": "./machines/Electric Shearing Machine/img/background.png",
+            "video": [
+                "./machines/Electric Shearing Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Electric Shearing Machine/img/auto1.jpg",
+                "./machines/Electric Shearing Machine/img/auto2.jpg",
+                "./machines/Electric Shearing Machine/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Electric Shearing Machine/img/1.jpg",
+                "./machines/Electric Shearing Machine/img/2.jpg",
+                "./machines/Electric Shearing Machine/img/3.jpg",
+                "./machines/Electric Shearing Machine/img/4.jpg",
+                "./machines/Electric Shearing Machine/img/5.jpg",
+                "./machines/Electric Shearing Machine/img/6.jpg",
+                "./machines/Electric Shearing Machine/img/7.jpg",
+                "./machines/Electric Shearing Machine/img/8.jpg",
+                "./machines/Electric Shearing Machine/img/9.jpg"
+            ],
+            "features": [
+                "The Q11 series mechanical electric shears( MD11 system) of Nanjing BYFO Machinery Co., Ltd. can be widely used in the sheet metal industry, with simple structure, convenient operation, exquisite design, beautiful appearance and low energy consumption.",
+                "Mechanical shears Uses resist key structural form and open gear clutch transmission, and more advanced Electric operation (foot switch, manual switch) with low noise operation and easy maintenance.",
+                "The machine is made of all-steel welded construction. Uses electric motor drive, blade made by material 6CrW2Si."
+            ]
+        },
+        {
+            "name": "Electric Three-Roller Machine",
+            "img": "./machines/Electric Three-Roller Machine/img/background.png",
+            "video": [
+                "./machines/Electric Three-Roller Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Electric Three-Roller Machine/img/auto1.jpg",
+                "./machines/Electric Three-Roller Machine/img/auto2.jpg",
+                "./machines/Electric Three-Roller Machine/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Electric Three-Roller Machine/img/1.jpg",
+                "./machines/Electric Three-Roller Machine/img/2.jpg",
+                "./machines/Electric Three-Roller Machine/img/3.jpg",
+                "./machines/Electric Three-Roller Machine/img/4.jpg",
+                "./machines/Electric Three-Roller Machine/img/5.jpg",
+                "./machines/Electric Three-Roller Machine/img/6.jpg",
+                "./machines/Electric Three-Roller Machine/img/7.jpg",
+                "./machines/Electric Three-Roller Machine/img/8.jpg",
+                "./machines/Electric Three-Roller Machine/img/9.jpg",
+                "./machines/Electric Three-Roller Machine/img/10.jpg"
+            ],
+            "features": [
+                "It has Pre-bending function, make straight edges narrower and it can even roll small round pipe with diameter of 100mm. With manual worm gear and eccentric wheel device so that the machine can quickly move side rollers up and down to improve efficiency"
+            ]
+        },
+        {
+            "name": "Foot Pneumatic Notching Machine",
+            "img": "./machines/Foot Pneumatic Notching Machine/background.png",
+            "alternateimg": [
+                "./machines/Foot Pneumatic Notching Machine/auto2.jpg",
+                "./machines/Foot Pneumatic Notching Machine/auto3.jpg",
+                "./machines/Foot Pneumatic Notching Machine/auto4.jpg",
+                "./machines/Foot Pneumatic Notching Machine/auto5.jpg",
+                "./machines/Foot Pneumatic Notching Machine/auto6.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Foot Pneumatic Notching Machine/_+++1.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++2.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++3.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++4.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++5.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++6.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++7.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++8.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++9.jpg",
+                "./machines/Foot Pneumatic Notching Machine/_+++10.jpg",
+                "./machines/Foot Pneumatic Notching Machine/1.jpg",
+                "./machines/Foot Pneumatic Notching Machine/2.jpg",
+                "./machines/Foot Pneumatic Notching Machine/3.jpg",
+                "./machines/Foot Pneumatic Notching Machine/4.jpg",
+                "./machines/Foot Pneumatic Notching Machine/5.jpg",
+                "./machines/Foot Pneumatic Notching Machine/6.jpg",
+                "./machines/Foot Pneumatic Notching Machine/7.jpg"
+            ],
+            "features": [
+                "There are two types: pedaled type and pneumatic type; and it's used for notching or cutting right angle on sheet metal"
+            ]
+        },
+        {
+            "name": "HE-12 Hand Operated Electric Duct Closer",
+            "img": "./machines/HE-12 Hand Operated Electric Duct Closer/background.png",
+            "alternateimg": [
+                "./machines/HE-12 Hand Operated Electric Duct Closer/auto2.jpg",
+                "./machines/HE-12 Hand Operated Electric Duct Closer/auto3.jpg",
+                "./machines/HE-12 Hand Operated Electric Duct Closer/auto4.jpg",
+                "./machines/HE-12 Hand Operated Electric Duct Closer/auto5.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/HE-12 Hand Operated Electric Duct Closer/_+++1.jpg",
+                "./machines/HE-12 Hand Operated Electric Duct Closer/_+++2.jpg",
+                "./machines/HE-12 Hand Operated Electric Duct Closer/_+++3.jpg",
+                "./machines/HE-12 Hand Operated Electric Duct Closer/_+++4.jpg"
+            ],
+            "features": [
+                "Closing of Pittsburgh lock joins on correspondingly per machined workpieces, e.g. ventilation ducts, housings, containers, etc.",
+                "Machining of all lock seam elevations. With this lock seam closer, it can be closed on straight or curved contours, this machine adjusts itself automatically to the sheet thickness to be processed."
+            ]
+        },
+        {
+            "name": "Hydraulic Riveting Machine",
+            "img": "./machines/Hydraulic Riveting Machine/background.png",
+            "alternateimg": [
+                "./machines/Hydraulic Riveting Machine/auto1.jpg",
+                "./machines/Hydraulic Riveting Machine/auto2.jpg",
+                "./machines/Hydraulic Riveting Machine/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Hydraulic Riveting Machine/_+++1.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++2.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++3.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++4.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++5.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++6.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++7.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++8.jpg",
+                "./machines/Hydraulic Riveting Machine/_+++9.jpg"
+            ],
+            "features": [
+                " It's widely used for riveting angle steel flange and galvanized sheet metal because the machine is easy to operate and move. "
+            ]
+        },
+        {
+            "name": "Hydraulic Vertical Seam Closer",
+            "img": "./machines/Hydraulic Vertical Seam Closer/img/background.png",
+            "video": [
+                "./machines/Hydraulic Vertical Seam Closer/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Hydraulic Vertical Seam Closer/img/auto2.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/auto3.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/auto4.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/auto5.webp"
+            ],
+            "imgcatalog": [
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++1.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++2.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++3.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++4.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++5.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++6.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++7.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++8.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++9.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++10.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++11.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++12.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++13.webp",
+                "./machines/Hydraulic Vertical Seam Closer/img/-+++14.webp"
+            ],
+            "features": [
+                "You can use the vertical seam closer and production line of wind pipe, T12 flange machine and reel bone machine. With mouth and a right angle edge is an ideal interface for connecting wind pipe linking machine SL-12 without anyOther auxilary connection tools, can be combined with the high quality of the mouth gap,not only beautiful, but also does not damage the metal surface, low noise, tight linking and smooth, good effect."
+            ]
+        },
+        {
+            "name": "JB23 Mechanical punch Full-automatic angle code production line",
+            "img": "./machines/JB23/background.png",
+            "alternateimg": [
+                "./machines/JB23/auto1.jpg",
+                "./machines/JB23/auto2.jpg",
+                "./machines/JB23/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/JB23/_+++1.jpg",
+                "./machines/JB23/_+++2.jpg",
+                "./machines/JB23/_+++3.jpg",
+                "./machines/JB23/_+++4.jpg",
+                "./machines/JB23/_+++5.jpg",
+                "./machines/JB23/_+++6.jpg",
+                "./machines/JB23/_+++7.jpg",
+                "./machines/JB23/_+++8.jpg",
+                "./machines/JB23/_+++9.jpg",
+                "./machines/JB23/_+++10.jpg",
+                "./machines/JB23/_+++11.jpg",
+                "./machines/JB23/_+++12.jpg",
+                "./machines/JB23/_+++13.jpg",
+                "./machines/JB23/_+++14.jpg",
+                "./machines/JB23/_+++15.jpg",
+                "./machines/JB23/_+++16.jpg",
+                "./machines/JB23/_+++17.jpg",
+                "./machines/JB23/_+++18.jpg",
+                "./machines/JB23/_+++19.jpg",
+                "./machines/JB23/_+++20.jpg",
+                "./machines/JB23/_+++21.jpg"
+            ],
+            "features": [
+                "This machine consists of material racks, CNC Feeders, mechanical punch, and molds. After the rolls are unfolded, the digital controlled feeder is used for precision transportation.The plate is stamped on the plate through a mechanical punch to achieve automatic falling off the tin -plated plate.Compared to artificial  production, it is faster, time -saving and labor -saving"
+            ]
+        },
+        {
+            "name": "JB23 Mechanical punch machine",
+            "img": "./machines/JB23 punch machine/background.png",
+            "alternateimg": [
+                "./machines/JB23 punch machine/auto1.jpg",
+                "./machines/JB23 punch machine/auto2.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/JB23 punch machine/_+++1.jpg",
+                "./machines/JB23 punch machine/_+++2.jpg",
+                "./machines/JB23 punch machine/_+++3.jpg",
+                "./machines/JB23 punch machine/_+++4.jpg",
+                "./machines/JB23 punch machine/_+++5.jpg",
+                "./machines/JB23 punch machine/_+++6.jpg",
+                "./machines/JB23 punch machine/_+++7.jpg",
+                "./machines/JB23 punch machine/_+++8.jpg",
+                "./machines/JB23 punch machine/_+++9.jpg",
+                "./machines/JB23 punch machine/_+++10.jpg",
+                "./machines/JB23 punch machine/_+++11.jpg"
+            ],
+            "features": [
+                "This machine consists of material racks, CNC Feeders, mechanical punch, and molds. After the rolls are unfolded, the digital controlled feeder is used for precision transportation.The plate is stamped on the plate through a mechanical punch to achieve automatic falling off the tin -plated plate.Compared to artificial  production, it is faster, time -saving and labor -saving"
+            ]
+        },
+        {
+            "name": "JM - 12 Hydraulic TDF corner mounting machine",
+            "img": "./machines/JM-12 Hydraulic/background.png",
+            "alternateimg": [
+                "./machines/JM-12 Hydraulic/auto1.jpg",
+                "./machines/JM-12 Hydraulic/auto2.jpg",
+                "./machines/JM-12 Hydraulic/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/JM-12 Hydraulic ./machines/JM-12 Hydraulic/_+++1.jpg",
+                "./machines/JM-12 Hydraulic/_+++2.jpg",
+                "./machines/JM-12 Hydraulic/_+++3.jpg",
+                "./machines/JM-12 Hydraulic/_+++4.jpg",
+                "./machines/JM-12 Hydraulic/_+++5.jpg",
+                "./machines/JM-12 Hydraulic/_+++6.jpg",
+                "./machines/JM-12 Hydraulic/_+++7.jpg",
+                "./machines/JM-12 Hydraulic/_+++8.jpg"
+            ],
+            "features": [
+                "Mainly used for corner code installation of rectangular air ducts, replacing manual smashing of corner codes, fast, time-saving, and efficient. Convenient to carry and move, paired with column brackets for more labor-saving and convenient use "
+            ]
+        },
+        {
+            "name": "JY5063 Hydraulic Angle Rolling Machine",
+            "img": "./machines/JY5063 Hydraulic/background.png",
+            "alternateimg": [
+                "./machines/JY5063 Hydraulic/auto1.jpg",
+                "./machines/JY5063 Hydraulic/auto2.jpg",
+                "./machines/JY5063 Hydraulic/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/JY5063 Hydraulic/_+++1.jpg",
+                "./machines/JY5063 Hydraulic/_+++10.jpg",
+                "./machines/JY5063 Hydraulic/_+++2.jpg",
+                "./machines/JY5063 Hydraulic/_+++3.jpg",
+                "./machines/JY5063 Hydraulic/_+++4.jpg",
+                "./machines/JY5063 Hydraulic/_+++5.jpg",
+                "./machines/JY5063 Hydraulic/_+++6.jpg",
+                "./machines/JY5063 Hydraulic/_+++7.jpg",
+                "./machines/JY5063 Hydraulic/_+++8.jpg",
+                "./machines/JY5063 Hydraulic/_+++9.jpg"
+            ],
+            "features": [
+                "3CYCLES:Manual, semi automatic and automatic ",
+                "Settable crimping diameter",
+                "Settable opening diameter",
+                "Crimping diameter correction",
+                "Settable crimping time",
+                "Storage and recall the crimping parameters",
+                "Coesarchive"
+            ]
+        },
+        {
+            "name": "Pneumatic Corner Mounting Machine",
+            "img": "./machines/Pneumatic Corner Mounting Machine/img/background.png",
+            "video": [
+                "./machines/Pneumatic Corner Mounting Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Pneumatic Corner Mounting Machine/img/auto2.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/auto3.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/auto4.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++1.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++2.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++3.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++4.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++5.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++6.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++7.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++8.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++9.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++10.jpg",
+                "./machines/Pneumatic Corner Mounting Machine/img/_+++11.jpg"
+            ],
+            "features": [
+                "It's used for installing rectangular duct corner code automatically to replace workers, which is fast, time-saving and effective"
+            ]
+        },
+        {
+            "name": "Pneumatic Seam Closer",
+            "img": "./machines/Pneumatic Seam Closer/background.png",
+            "alternateimg": [
+                "./machines/Pneumatic Seam Closer/auto1.jpg",
+                "./machines/Pneumatic Seam Closer/auto2.jpg",
+                "./machines/Pneumatic Seam Closer/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Pneumatic Seam Closer/_+++1.jpg",
+                "./machines/Pneumatic Seam Closer/_+++2.jpg",
+                "./machines/Pneumatic Seam Closer/_+++3.jpg",
+                "./machines/Pneumatic Seam Closer/_+++4.jpg",
+                "./machines/Pneumatic Seam Closer/_+++5.jpg",
+                "./machines/Pneumatic Seam Closer/_+++6.jpg",
+                "./machines/Pneumatic Seam Closer/_+++7.jpg",
+                "./machines/Pneumatic Seam Closer/_+++8.jpg",
+                "./machines/Pneumatic Seam Closer/_+++9.jpg"
+            ],
+            "features": [
+                "The horizontal lock seaming machine is the convenient one that can be used to lock a max length 1250 mm rectangular air tube. The Pneumatic Seam Closer Machine needs to connect with an air pump.",
+                "Its advantages are efficiency and labor-saving. It’s convenient to operate because the operator just needs to fix the air duct. The effect of lock seam closing is smooth and regular. Pneumatic Seam Closer Machine",
+                "This machine is horizontal, so it is easy to check every part of the machine and text it to finish duct making.",
+                "Lock seaming closer machine includes lock seaming machine for rectangular duct and lock seaming machine for round duct."
+            ]
+        },
+        {
+            "name": "Pneumatic Welding Machine",
+            "img": "./machines/Pneumatic Welding Machine/background.png",
+            "alternateimg": [
+                "./machines/Pneumatic Welding Machine/auto1.jpg",
+                "./machines/Pneumatic Welding Machine/auto2.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Pneumatic Welding Machine ./machines/Pneumatic Welding Machine/_+++1.jpg",
+                "./machines/Pneumatic Welding Machine/_+++2.jpg",
+                "./machines/Pneumatic Welding Machine/_+++3.jpg",
+                "./machines/Pneumatic Welding Machine/_+++4.jpg",
+                "./machines/Pneumatic Welding Machine/_+++5.jpg",
+                "./machines/Pneumatic Welding Machine/_+++6.jpg",
+                "./machines/Pneumatic Welding Machine/_+++7.jpg",
+                "./machines/Pneumatic Welding Machine/_+++8.jpg",
+                "./machines/Pneumatic Welding Machine/_+++9.jpg",
+                "./machines/Pneumatic Welding Machine/_+++10.jpg",
+                "./machines/Pneumatic Welding Machine/_+++11.jpg",
+                "./machines/Pneumatic Welding Machine/_+++12.jpg",
+                "./machines/Pneumatic Welding Machine/_+++13.jpg"
+            ],
+            "features": [
+                "The horizontal lock seaming machine is the convenient one that can be used to lock a max length 1250 mm rectangular air tube. The Pneumatic Seam Closer Machine needs to connect with an air pump.",
+                "Its advantages are efficiency and labor-saving. It’s convenient to operate because the operator just needs to fix the air duct. The effect of lock seam closing is smooth and regular. Pneumatic Seam Closer Machine",
+                "This machine is horizontal, so it is easy to check every part of the machine and text it to finish duct making.",
+                "Lock seaming closer machine includes lock seaming machine for rectangular duct and lock seaming machine for round duct."
+            ]
+        },
+        {
+            "name": "Q11 Electric Shearing Machine MD11 system",
+            "img": "./machines/Q11/background.png",
+            "alternateimg": [
+                "./machines/Q11/auto1.jpg",
+                "./machines/Q11/auto2.jpg",
+                "./machines/Q11/auto3.jpg",
+                "./machines/Q11/auto4.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Q11 ./machines/Q11/_+++1.jpg",
+                "./machines/Q11/_+++2.jpg",
+                "./machines/Q11/_+++3.jpg",
+                "./machines/Q11/_+++4.jpg",
+                "./machines/Q11/_+++5.jpg",
+                "./machines/Q11/_+++6.jpg",
+                "./machines/Q11/_+++7.jpg"
+            ],
+            "features": [
+                "The Q11 series mechanical electric shears( MD11 system) of Nanjing BYFO Machinery Co., Ltd. can be widely used in the sheet metal industry, with simple structure, convenient operation, exquisite design, beautiful appearance and low energy consumption.",
+                "Mechanical shears Uses resist key structural form and open gear clutch transmission, and more advanced Electric operation (foot switch, manual switch) with low noise operation and easy maintenance.",
+                "The machine is made of all-steel welded construction. Uses electric motor drive, blade made by material 6CrW2Si."
+            ]
+        },
+        {
+            "name": "Reel Shearing Beading Machine",
+            "img": "./machines/Reel Shearing Beading Machine/img/background.png",
+            "video": [
+                "./machines/Reel Shearing Beading Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Reel Shearing Beading Machine/img/auto1.jpg",
+                "./machines/Reel Shearing Beading Machine/img/auto2.jpg",
+                "./machines/Reel Shearing Beading Machine/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Reel Shearing Beading Machine/img/_+++1.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++2.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++3.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++4.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++5.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++6.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++7.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++8.jpg",
+                "./machines/Reel Shearing Beading Machine/img/_+++9.jpg"
+            ],
+            "features": [
+                "Real Sheering Beading Machine, Ngau Tau scissors, is capable of shearing and beading, and it's also suitable for slitting",
+                "The machine is used to cut, bead/groove thin sheet meral. suitable for thin plate shear, grooving, has the processing time width is enough, It has a width and large processing timeliness, easy to operate, applies strong features, and is widely used in windpipe processing and manufacturing"
+            ]
+        },
+        {
+            "name": "Rotary Machine",
+            "img": "./machines/Rotary Machine/img/background.png",
+            "video": [
+                "./machines/Rotary Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/Rotary Machine/img/auto1.jpg",
+                "./machines/Rotary Machine/img/auto2.jpg",
+                "./machines/Rotary Machine/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/Rotary Machine/img/_+++1.jpg",
+                "./machines/Rotary Machine/img/_+++2.jpg",
+                "./machines/Rotary Machine/img/_+++3.jpg",
+                "./machines/Rotary Machine/img/_+++4.jpg",
+                "./machines/Rotary Machine/img/_+++5.jpg",
+                "./machines/Rotary Machine/img/_+++6.jpg",
+                "./machines/Rotary Machine/img/_+++7.jpg",
+                "./machines/Rotary Machine/img/_+++8.jpg"
+            ],
+            "features": [
+                "There are manual and electric type of reel machine, and it's mainly used for beading round pipe and connection",
+                "This machine is widely used in HVAC duct fabrication system industry, mainly for flanging and beading with special rollers",
+                "Also it can make the different work pieces with special rolling wheels,such as for leveling metal sheets, shearing sheets,corrugating plates, etc. Power Swaging machine and Universal Hand beading machine can be selected."
+            ]
+        },
+        {
+            "name": "Round Duct Seam Closer",
+            "img": "./machines/Round Duct Seam Closer/background.png",
+            "alternateimg": [
+                "./machines/Round Duct Seam Closer/auto3.webp",
+                "./machines/Round Duct Seam Closer/auto1.webp",
+                "./machines/Round Duct Seam Closer/auto2.webp"
+            ],
+            "imgcatalog": [
+                "./machines/Round Duct Seam Closer/-+++1.webp",
+                "./machines/Round Duct Seam Closer/-+++2.webp",
+                "./machines/Round Duct Seam Closer/-+++3.webp",
+                "./machines/Round Duct Seam Closer/-+++4.webp",
+                "./machines/Round Duct Seam Closer/-+++5.webp",
+                "./machines/Round Duct Seam Closer/-+++6.webp",
+                "./machines/Round Duct Seam Closer/-+++7.webp",
+                "./machines/Round Duct Seam Closer/-+++8.webp",
+                "./machines/Round Duct Seam Closer/-+++9.webp",
+                "./machines/Round Duct Seam Closer/-+++10.webp",
+                "./machines/Round Duct Seam Closer/-+++11.webp"
+            ],
+            "features": [
+                "Sturdy construction: The Round Duct Seam Close Making Machine is made of high-quality materials that ensure its durability and long lifespan. Its robust construction allows it to withstand the rigors of heavy-duty usage, making it an ideal choice for industrial applications.",
+                "Easy to operate: The machine is designed to be user-friendly, with intuitive controls and easy-to-follow instructions. Even operators who have no prior experience with this type of machine can quickly learn to use it efficiently."
+            ]
+        },
+        {
+            "name": "TDC Electric Riveting Machine",
+            "img": "./machines/TDC Electric/background.png",
+            "alternateimg": [
+                "./machines/TDC Electric/auto1.jpg",
+                "./machines/TDC Electric/auto2.jpg",
+                "./machines/TDC Electric/auto3.jpg",
+                "./machines/TDC Electric/auto4.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/TDC Electric/auto5.jpg",
+                "./machines/TDC Electric/auto6.jpg",
+                "./machines/TDC Electric/auto7.jpg",
+                "./machines/TDC Electric/auto8.jpg"
+            ],
+            "features": [
+                "Handheld electric riveting machine is mainly used for riveting between plates. The total weight of this machine is 12kg, which can be used in plug -in. In the production of ventilation pipelines, it is specially used in Riveting of TDC flanges and air ducts. It has the characteristics of convenient carrying and convenient operation."
+            ]
+        },
+        {
+            "name": "TDC Flange Machine",
+            "img": "./machines/TDC Flange Machine/background.png",
+            "alternateimg": [
+                "./machines/TDC Flange Machine/auto1.jpg",
+                "./machines/TDC Flange Machine/auto2.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/TDC Flange Machine/1.jpg",
+                "./machines/TDC Flange Machine/2.jpg",
+                "./machines/TDC Flange Machine/3.jpg",
+                "./machines/TDC Flange Machine/4.jpg",
+                "./machines/TDC Flange Machine/5.jpg",
+                "./machines/TDC Flange Machine/6.jpg",
+                "./machines/TDC Flange Machine/7.jpg",
+                "./machines/TDC Flange Machine/8.jpg",
+                "./machines/TDC Flange Machine/9.jpg",
+                "./machines/TDC Flange Machine/10.jpg",
+                "./machines/TDC Flange Machine/11.jpg",
+                "./machines/TDC Flange Machine/12.jpg",
+                "./machines/TDC Flange Machine/13.jpg",
+                "./machines/TDC Flange Machine/14.jpg",
+                "./machines/TDC Flange Machine/15.jpg",
+                "./machines/TDC Flange Machine/16.jpg"
+            ],
+            "features": [
+                "According to the working performance and strength of flange and seal level can be divided into five types:T-20,T-25,T-30,T-35,T-40",
+                "The burr is small and can be fully automated. Its working speed is 5-7m/min."
+            ]
+        },
+        {
+            "name": "TDF Flange Machine",
+            "img": "./machines/TDF Flange Machine/img/background.png",
+            "video": [
+                "./machines/TDF Flange Machine/video/video1.webm"
+            ],
+            "alternateimg": [
+                "./machines/TDF Flange Machine/img/auto2.jpg",
+                "./machines/TDF Flange Machine/img/auto3.jpg"
+            ],
+            "imgcatalog": [
+                "./machines/TDF Flange Machine/img/auto2.jpg",
+                "./machines/TDF Flange Machine/img/auto3.jpg"
+            ],
+            "features": [
+                "Equipped with precision adjusting micro components, Japan magnetic contractor and electronic components, minimum breakdown and long operating life",
+                "Integrated with straightener and uncoiler into one machine, save volume, suitable for board processing. Automatically adjust feeding time according to output speed",
+                "Hard-chrome plated rollers adopts the solid bearing steel, low wear and high precision"
+            ]
+        }
+    ]
+}

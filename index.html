@@ -1,578 +1,911 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="./styles/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="notification">
-      <div class="notification-item container">
-        <p>Produced in Nanjing 100%</p>
-        <a href="tel:+8615061223314" class="notification-num">+86-15061223314</a>
-      </div>
-    </div>  
-    <header class="header">
-        <div class="header-item container">
-          <a href="./index.html">
-            <img 
-              src="./icons/logo/MasonCnc-logo.png" 
-              alt="MasonCnc"
-              loading="lazy"
-              >
-          </a>
-          <nav class="header-menu">
-            <label for="menu-toggle" class="menu-toggle">
-              <span class="visually-hidden">Open menu</span>
-              <span class="menu-icon"></span>
-              <span class="menu-icon"></span>
-              <span class="menu-icon"></span>
-              <input type="checkbox" id="menu-toggle" />
-            </label>
-            <ul class="header-menu-list bold-list" id="navSection">
-              <li class="header-menu-item"><a href="./index.html">Home</a></li>
-              <li class="header-menu-item"><a href='./products.html'>Machines</a></li>
-              <li class="header-menu-item"><a href="/">Industries</a></li>
-              <li class="header-menu-item"><a href="/">About</a></li>
-              <li class="header-menu-item"><a href="/">Contact Us</a></li>
-              <li class="header-menu-item"><button class="button-item" id="setLang">En</button></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
-    <main class="main">
-        <h1 class="visually-hidden">MasonCnc - Machinery Company you can trust</h1>
-        <section class="main-item">
-          <h2 class="visually-hidden">Introduce MasonCnc</h2>
-          <div class="main-item-background container">
-          <div class="main-item-intro" id="mainSection">
-            <h2 class="intro-header">Professional <span class="highlight">Duct</span><br>Machine Manufacturer</h2>
-            <div class="intro-description muted-text">
-            <p>MasonCnc offers different options for the duct production line, here you will find what you will need.</p>
-            </div>
-            <div class="main-item-action">
-                <a href="/" class="button-item-large">Machines</a>
-                <a href="/" class="button-item-large transparent">Contact Us</a>
-              </div>
-          </div>
-          <div class="main-item-image">
-            <img 
-              src="./img/Closeup of CNC machine with sparks-1.jpg" 
-              alt="MasonCnc"
-              loading="lazy"
-              class="main-item-logo"
-              width="960"
-            >
-          </div>
-          </div>
-        
-        </section>
-        <section class="benefits">
-          <h2 class="visually-hidden">Check out our benefits</h2>
-          <div class="benefits-item highlight-text padding-y container">
-            <div class="intro-description vertical-padding" id="benefitsSection">
-              <span>100% MasonCnC Owned & Operated</span><br>
-              <span>Based in Nanjing&nbsp;<time datetime="1996">1996</time></span>
-            </div>
-              <ul class="benefits-list" id="benefitsList">
-                <li class="benefits-list-item">
-                  <img 
-                    src="./icons/benefits/supply-chain.png"
-                    alt="supply-chain" class="benefits-list-icon"
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                    <div class="benefits-title">
-                      <h3 class="benefits-header">Raw Material Supply</h3>
-                      <div class="benefits-notice-title">
-                      <output>
-                        In-depth cooperation with international brands, including Siemens, Yaskawa, Schneider, Bosch Rexroth, Hiwin, etc
-                      </output>
-                      </div>
-                    </div>
-                </li>
-                <li class="benefits-list-item" id="startLine1">
-                  <img 
-                    src="./icons/benefits/production.png" 
-                    alt="production and processing" 
-                    class="benefits-list-icon" 
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                    <div class="benefits-title">
-                      <h3 class="benefits-header">Production & Processing</h3>
-                    <div class="benefits-notice-title">
-                    <output>
-                      large size CNC boring and milling machine, gantry machining center, CNC plasma cutting machine
-                    </output>
-                  </div>
-                    </div>
-                </li>
-                <li class="benefits-list-item">
-                  <img 
-                    src="./icons/benefits/sale.png" 
-                    alt="production and processing" 
-                    class="benefits-list-icon" 
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                  <div class="benefits-title">
-                    <h3 class="benefits-header">Market Sales</h3>
-                  <div class="benefits-notice-title">
-                    <output>
-                      Seven years of foreign trade sales experience, with a large number of high-quality dealers, machines are exported abroad
-                    </output>
-                  </div>
-                  </div>
-                </li>
-                <li class="benefits-list-item">
-                  <img 
-                    src="./icons/benefits/support.png" 
-                    alt="production and processing" 
-                    class="benefits-list-icon" 
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                  <div class="benefits-title">
-                    <h3 class="benefits-header">After-Sales Production</h3>
-                  <div class="benefits-notice-title">
-                    <output>
-                      24/7 online service will provide you with technical advice and technical fault analysis after receiving the machine
-                    </output>
-                  </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          <div class="benefits-absolute-background">
-            <div class="overlay-background"></div>
-            <img src="./img/working-machine.png" alt="working-machine" class="benefits-background" loading="lazy">
-          </div>
-          </div>
-        </section>
-        <section class="capabilities padding-y">
-          <h2 class="visually-hidden">Our Machines</h2>
-          <div class="capabilities-banner container" id="capabilitiesList">
-            <h3 class="capabilities-header medium-title">Our <span class="highlight">Machines</span></h3>
-            <ul class="capabilities-list">
-              
-              <li class="capabilities-item box-shadow" id="startLine2">
-                <div class="capabilities-upper-block">
-                  <div class="capabilities-img">
-                    <img 
-                      src="./img/capabilities/cnc machining .webp"
-                      class="logo-img"
-                      alt="HVAC Duct Machine">
-                  </div>
-                  <div class="capabilities-title margin-y">
-                    <h3 class="header-small">HVAC Duct Machine</h3>
-                    <p class="muted-text margin-top logo-text">Discover high-quality duct making machine that streamline duct fabrication with precision and efficiency</p>
-                  </div>
-                </div>
-                <div class="capabilities-lower-block margin-y">
-                  <a href="./products.html" class="link-arrow">More on CNC Machines</a>
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path>
-                    </svg>
-                </div>
-              </li>
-
-              <li class="capabilities-item box-shadow">
-                <div class="capabilities-upper-block">
-                  <div class="capabilities-img">
-                    <img 
-                      src="./img/capabilities/rapid-prototyping.webp" 
-                      alt="Press Brake Machine"
-                      class="logo-img"
-                      >
-                  </div>
-                  <div class="capabilities-title margin-y">
-                    <h3 class="header-small">Press Brake Machine</h3>
-                    <p class="muted-text margin-top logo-text">A press brake is a machine used to bend sheet metal and metal plates. Its design is long and narrow so it is able to fit large pieces of sheet metal.</p>
-                  </div>
-                </div>
-                <div class="capabilities-lower-block margin-y">
-                  <a href="./products.html" class="link-arrow">More on CNC Machines</a>
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path>
-                    </svg>
-                </div>
-              </li>
-              
-              <li class="capabilities-item box-shadow">
-                <div class="capabilities-upper-block">
-                  <div class="capabilities-img">
-                    <img 
-                      src="./img/capabilities/assembly production.webp" 
-                      class="logo-img"
-                      alt="Fiber Laser Cutting Machine">
-                  </div>
-                  <div class="capabilities-title margin-y">
-                    <h3 class="header-small">F/L Cutting Machine</h3>
-                    <p class="muted-text margin-top logo-text">We provide full assembly from start to finish and can have a complete product delivered to your door. Our full production range includes machining, fabrication, metal finishing, welding, etc.</p>
-                  </div>
-                </div>
-                <div class="capabilities-lower-block margin-y">
-                  <a href="./products.html" class="link-arrow">More on CNC Machines</a>
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path>
-                    </svg>
-                </div>
-              </li>
-
-              <li class="capabilities-item box-shadow capabilities-wide-item">
-                  <div class="capabilities-img wide">
-                    <img 
-                      src="./img/capabilities/assembly production.webp" 
-                      alt="Capabilities1"
-                      class="capabilities-img-last logo-img"
-                      >
-                  </div>
-                  <div class="capabilities-title">
-                    <h3 class="header-small">Other Machines</h3>
-                    <p class="muted-text margin-top logo-text">
-                      In addition to the above-mentioned machines, we offer you wide range for your requirements.</p>
-                    <ul id="muted-text" class="capabilities-list-item">
-                      <li><span>Grooving machine</span></li>
-                      <li><span>Shearing machine</span></li>
-                      <li><span>Punching machine</span></li>
-                      <li><span>Rolling machine</span></li>
-                      <li><span>Welding machine</span></li>
-                      <li><span>And more...</span></li>
-                    </ul>
-                    <div class="left-text-container">
-                      <a href="./products.html" class="link-arrow">More on our Other Machines</a>
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path>
-                        </svg>
-                    </div>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="banner">
-            <h2 class="visually-hidden">Contacts banner</h2>
-          <div class="banner-wrapper highlight-text padding-y container-small" id="startLine3">
-            <h3 class="basic-header banner-header">
-              Get High-Quality HVAC <br>
-              Machined Components</h3>
-            <div class="intro-description">
-            <p>Quality assurance at every stage in our factory based in Nanjing</p>
-            </div>
-            <div class="action-block margin-y width banner-action">
-           <div class="contact-action">
-            <span class="muted-text">Find quality solution to your requirements!</span>
-            <a href="./products.html" class="button-item-alternate">Machines</a>
-           </div>
-           <div class="contact-action">
-            <span class="muted-text">Want to talk about your requirements?</span>
-            <a href="./contact-us.html" class="button-item-alternate transparent">Contact Us</a>
-           </div>
-            </div>
-           </div>
-           <div class="benefits-absolute-background">
-            <div class="overlay-background-alternate"></div>
-            <img src="./img/working-machine-2.jpg" alt="working-machine" class="benefits-background" loading="lazy">
-          </div>
-        </section>
-        <section class="work-process padding-y">
-          <h2 class="visually-hidden">Our Work Process</h2>
-          <div class="work-stages container">
-            <h3 class="medium-title">How <span class="highlight">Our Process</span> Works</h3>
-            <ul class="work-stages-list margin-y">
-              
-              <li class="work-stages-item box-shadow" data-count="1" id="startLine4">
-                <div class="circle">
-                  <span class="icon-scale">1</span>
-                </div>
-                <img 
-                    src="./icons/benefits/stage1.svg" 
-                    alt="Send Your Designs" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Machine Introduction</h3>
-                  <p class="muted-text margin-y">Find a machine according to your requirements on our website or you can email them and we will get back to you within 4 business hours</p>  
-                </div>
-              </li>
-
-              <li class="work-stages-item box-shadow" data-count="2">
-                <div class="circle">
-                  <span class="icon-scale">2</span>
-                </div>
-                <img 
-                    src="./icons/benefits/registration.png" 
-                    alt="Manufacture" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Inquiry Form</h3>
-                  <p class="muted-text margin-y">Contact us what volume of request you need, where to send us the parcel, leave us contact for detailed information if necessary, and stay updated with all notifications</p>  
-                </div>
-              </li>
-
-              <li class="work-stages-item box-shadow" data-count="3">
-                <div class="circle">
-                  <span class="icon-scale">3</span>
-                </div>
-                <img 
-                    src="./icons/benefits/stage3.svg" 
-                    alt="Quality Inspection" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Packing </h3>
-                  <p class="muted-text margin-y">We pack every part of the machine with high quality and make it safe, and our team of experts will check that everything is in place.</p>  
-                </div>
-              </li>
-
-              <li class="work-stages-item box-shadow" data-count="4">
-                <div class="circle">
-                  <span class="icon-scale">4</span>
-                </div>
-                <img 
-                    src="./icons/benefits/stage4.svg" 
-                    alt="Delivery" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Delivery</h3>
-                  <p class="muted-text margin-y">We ensure on-time delivery to your doorstep by utilising our own delivery drivers and transport partnerships so we can delivery anywhere you are in the fastest time.</p>  
-                </div>
-              </li>
-            
-            </ul>
-          </div>
-        </section>
-        <section class="experience padding-y">
-          <h2 class="visually-hidden">Experience in CNC Machining</h2>
-          <div class="basic-flex-container container">
-              <div class="experience-title">
-                <h2 class="basic-header">Over <span class="highlight">29 Years</span> of Experience in HVAC Machining</h2>
-                <div class="intro-description muted-text">
-                <p>MasonCNC has over 29 years of experience in servicing some of the largest and most accredited companies throughout China, which has enabled us to build a solid reputation throughout the industry.</p>
-                </div>
-                <div class="main-item-action">
-                    <a href="./products.html" class="button-item-large">Machines</a>
-                    <a href="./contact-us.html" class="button-item-large transparent">Contact Us</a>
-                  </div>
-              </div>
-              <div class="location-map box-shadow">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13599.001102018427!2d118.83137026825086!3d31.558467371452164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b5654b5cf67345%3A0x2d03f88fbd23157b!2zQm93YW5nIFRvd24sIEJvd2FuZyBEaXN0cmljdCwg0JzQsNCw0L3RjNGI0LDQvdGMLCDQkNC90YzRhdC-0LksINCa0LjRgtCw0LksIDI0MzEzMQ!5e0!3m2!1sru!2sde!4v1746795157112!5m2!1sru!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              </div>
-        </section>
-        <section class="asked-questions">
-          <h2 class="visually-hidden">Asked questions</h2>
-        <div class="questions vertical-container container-small padding-y">
-          <h2 class="medium-title">Frequently Asked Questions</h2>
-          <ul class="question-accordion" id="accordion">
-            <li class="accordion-item">
-              <div class="accordion-question">
-              <p class="text-weight-bold p-text-size">How fast can you manufacture?</p>
-              <button class="accordion-show">
-               <img 
-                src="./icons/logo/icon_plus.svg" 
-                class="show-img"
-                alt="Read" 
-                width="32" 
-                height="32"
-                > 
-              </button>
-            </div>
-              <div class="acc-answer muted-text">
-              <output>We understand there can be urgencies with breakdowns and production runs. So we offer a 24 hour turnaround service on any urgent requirements to get you moving forward.</output>
-              </div>
-            </li>
-            <li class="accordion-item">
-              <div class="accordion-question">
-                <p class="text-weight-bold p-text-size">Do you offer delivery?</p>
-                <button class="accordion-show">
-                  <img 
-                   src="./icons/logo/icon_plus.svg" 
-                   class="show-img"
-                   alt="Read" 
-                   width="32" 
-                   height="32"
-                   > 
-                 </button>
-              </div>
-              <div class="acc-answer muted-text">
-              <output>Yes! We have our own drivers for deliveries and have partnerships with transport companies, so we can deliver anywhere in Australia.</output>
-              </div>
-            </li>
-            <li class="accordion-item">
-              <div class="accordion-question">
-              <p class="text-weight-bold p-text-size">How long is delivery?</p>
-              <button class="accordion-show">
-                <img 
-                 src="./icons/logo/icon_plus.svg" 
-                 class="show-img"
-                 alt="Read" 
-                 width="32" 
-                 height="32"
-                 > 
-               </button>
-            </div>
-              <div class="acc-answer muted-text">
-              <output>We offer next day delivery for Metropolitan Melbourne and 2-5 business days to anywhere else in Australia.</output>
-              </div>
-            </li>
-            <li class="accordion-item">
-              <div class="accordion-question">
-              <p class="text-weight-bold p-text-size">Can you work off digital files?</p>
-              <button class="accordion-show">
-                <img 
-                 src="./icons/logo/icon_plus.svg" 
-                 class="show-img"
-                 alt="Read" 
-                 width="32" 
-                 height="32"
-                 > 
-               </button>
-               </div>
-              <div class="acc-answer muted-text">
-              <output>Yes! We can provide a full service from quotation to production from any digital file, including PDFs.</output>
-              </div>
-            </li>
-          </ul>
-          <div class="contact margin-big width">
-            <p class="header-medium text-weight-bold">Still have questions?</p>
-            <div class="margin-top muted-text">
-            <p class="p-text-size">If you have any questions about our services, please don’t hesitate to reach out. We’re always happy to help!</p>
-            </div>
-            <div class="main-item-action margin-top">
-              <a href="./contact-us.html" class="button-item-large transparent">Contact Us</a>
-              </div>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+    </head>
+    <body>
+        <div class="notification">
+            <div class="notification-item container">
+                <p>Produced in Nanjing 100%</p>
+                <a href="tel:+8615061223314" class="notification-num"
+                    >+86-15061223314</a
+                >
             </div>
         </div>
-        </section>
-        <section class="banner">
-          <h2 class="visually-hidden">Contacts banner</h2>
-        <div class="banner-wrapper highlight-text padding-y container-small">
-          <h3 class="basic-header">
-            Get High-Quality HVAC <br>
-            Machined Components</h3>
-          <div class="intro-description">
-          <p>Quality assurance at every stage in our factory based in Nanjing</p>
-          </div>
-          <div class="action-block margin-y width">
-         <div class="contact-action">
-          <span class="muted-text">Find solution yo your requirements?</span>
-          <a href="./products.html" class="button-item-alternate">Machines</a>
-         </div>
-         <div class="contact-action">
-          <span class="muted-text">Want to talk about your project?</span>
-          <a href="./contact-us.html" class="button-item-alternate transparent">Contact Us</a>
-         </div>
-          </div>
-         </div>
-         <div class="benefits-absolute-background">
-          <div class="overlay-background"></div>
-          <img src="./img/working-machine-2.jpg" alt="working-machine" class="benefits-background" loading="lazy">
-        </div>
-        </section>
-    </main>
-    <footer class="footer">
-          <div class="footer-main container">
-            <div class="footer-main-inner">
-              <div class="footer-left-inner">
-              <header class="footer-logo">
+        <header class="header sticky">
+            <div class="header-item container">
                 <a href="./index.html">
-                <img 
-                  src="./icons/logo/MasonCnc-logo.png" 
-                  alt="MasonCnc"
-                  class="footer-logo-img"
-                  width="200"
-                  height="50"
-                  loading="lazy"
-                  >
-                  </a>
-              </header>
-                <ul class="footer-menu-list">
-                  <li class="footer-menu-item"><a href="./index.html">Home</a></li>
-                  <li class="footer-menu-item"><a href="./products.html">Machines</a></li>
-                  <li class="footer-menu-item"><a href="/">Industries</a></li>
-                  <li class="footer-menu-item"><a href="/">About</a></li>
-                  <li class="footer-menu-item"><a href="./contact-us.html">Contact Us</a></li>
-                </ul>
-                </div>
-                <div class="footer-right-inner">
-              <div class="footer-contact">
-                <div class="footer-address">
-                  <p class="footer-a-light">Address:</p>
-                  <address class="address">No.1010-2, Taihang Mountain Road, Bowang Town, Bowang District, Maanshan, Anhui, China</address>
-                </div>
-                <div class="footer-address">
-                  <p class="footer-a-light">Contact:</p>
-                  <ul class="foote-menu-list">
-                    <li>
-                      <a href="tel:+8615061223314" class="alternate-link">+86-15061223314</a>
-                    </li>
-                    <li>
-                      <a href="mailto:judy@mason-machine.com" class="alternate-link">judy@mason-machine.com</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              </div>
+                    <img
+                        src="./icons/logo/MasonCnc-logo.png"
+                        alt="MasonCnc"
+                        loading="lazy"
+                    />
+                </a>
+                <nav class="header-menu">
+                    <label for="menu-toggle" class="menu-toggle">
+                        <span class="visually-hidden">Open menu</span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <input type="checkbox" id="menu-toggle" />
+                    </label>
+                    <ul class="header-menu-list bold-list" id="navSection">
+                        <li class="header-menu-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="./products.html">Machines</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="/">Industries</a>
+                        </li>
+                        <li class="header-menu-item"><a href="/">About</a></li>
+                        <li class="header-menu-item">
+                            <a href="/">Contact Us</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <button class="button-item" id="setLang">En</button>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="footer-extra margin-big">
-              <div class="footer-copyright">
-                © <time datetime="2024">2024</time>Mason CNC Machinery Co.,Ltd.
-              </div>
-               <div class="footer-soc1als">
-                <ul class="footer-soc1als-list">
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="https://www.tiktok.com/tiktokstudio/content" target="_blank">
-                      <img src="./icons/tiktok-svgrepo-com.svg" alt="tiktok" >
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="https://www.youtube.com/channel/UCfFsaJAhN-psEMfjIkhmMgA" target="_blank">
-                     <img src="./icons/youtube-color-svgrepo-com.svg" alt="youtube">
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="" target="_blank">
-                      <img src="./icons/instagram-svgrepo-com.svg" alt="instagram">
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="https://www.facebook.com/profile.php?id=61572889269140" target="_blank">
-                     <img src="./icons/facebook-network-communication-internet-interaction-svgrepo-com.svg" alt="facebook">
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="tel:+8615061223314">
-                      <img src="./icons/whatsapp-svgrepo-com (1).svg" alt="whatsapp">
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        </header>
+        <main class="main">
+            <h1 class="visually-hidden">
+                MasonCnc - Machinery Company you can trust
+            </h1>
+            <section class="main-item">
+                <h2 class="visually-hidden">Introduce MasonCnc</h2>
+                <div class="main-item-background container">
+                    <div class="main-item-intro" id="mainSection">
+                        <h2 class="intro-header">
+                            Professional <span class="highlight">Duct</span
+                            ><br />Machine Manufacturer
+                        </h2>
+                        <div class="intro-description muted-text">
+                            <p>
+                                MasonCnc offers different options for the duct
+                                production line, here you will find what you
+                                will need.
+                            </p>
+                        </div>
+                        <div class="main-item-action">
+                            <a href="./products.html" class="button-item-large"
+                                >Machines</a
+                            >
+                            <a href="/" class="button-item-large transparent"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                    <div class="main-item-image">
+                        <img
+                            src="./img/Closeup of CNC machine with sparks-1.jpg"
+                            alt="MasonCnc"
+                            loading="lazy"
+                            class="main-item-logo"
+                            width="960"
+                        />
+                    </div>
+                </div>
+            </section>
+            <section class="benefits">
+                <h2 class="visually-hidden">Check out our benefits</h2>
+                <div class="benefits-item highlight-text padding-y container">
+                    <div
+                        class="intro-description vertical-padding"
+                        id="benefitsSection"
+                    >
+                        <span>100% MasonCnC Owned & Operated</span><br />
+                        <span
+                            >Based in Nanjing&nbsp;<time datetime="1996"
+                                >1996</time
+                            ></span
+                        >
+                    </div>
+                    <ul class="benefits-list" id="benefitsList">
+                        <li class="benefits-list-item">
+                            <img
+                                src="./icons/benefits/supply-chain.png"
+                                alt="supply-chain"
+                                class="benefits-list-icon"
+                                loading="lazy"
+                                width="65"
+                                height="75"
+                            />
+                            <div class="benefits-title">
+                                <h3 class="benefits-header">
+                                    Raw Material Supply
+                                </h3>
+                                <div class="benefits-notice-title">
+                                    <output>
+                                        In-depth cooperation with international
+                                        brands, including Siemens, Yaskawa,
+                                        Schneider, Bosch Rexroth, Hiwin, etc
+                                    </output>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefits-list-item" id="startLine1">
+                            <img
+                                src="./icons/benefits/production.png"
+                                alt="production and processing"
+                                class="benefits-list-icon"
+                                loading="lazy"
+                                width="65"
+                                height="75"
+                            />
+                            <div class="benefits-title">
+                                <h3 class="benefits-header">
+                                    Production & Processing
+                                </h3>
+                                <div class="benefits-notice-title">
+                                    <output>
+                                        large size CNC boring and milling
+                                        machine, gantry machining center, CNC
+                                        plasma cutting machine
+                                    </output>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefits-list-item">
+                            <img
+                                src="./icons/benefits/sale.png"
+                                alt="production and processing"
+                                class="benefits-list-icon"
+                                loading="lazy"
+                                width="65"
+                                height="75"
+                            />
+                            <div class="benefits-title">
+                                <h3 class="benefits-header">Market Sales</h3>
+                                <div class="benefits-notice-title">
+                                    <output>
+                                        Seven years of foreign trade sales
+                                        experience, with a large number of
+                                        high-quality dealers, machines are
+                                        exported abroad
+                                    </output>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefits-list-item">
+                            <img
+                                src="./icons/benefits/support.png"
+                                alt="production and processing"
+                                class="benefits-list-icon"
+                                loading="lazy"
+                                width="65"
+                                height="75"
+                            />
+                            <div class="benefits-title">
+                                <h3 class="benefits-header">
+                                    After-Sales Production
+                                </h3>
+                                <div class="benefits-notice-title">
+                                    <output>
+                                        24/7 online service will provide you
+                                        with technical advice and technical
+                                        fault analysis after receiving the
+                                        machine
+                                    </output>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="benefits-absolute-background">
+                    <div class="overlay-background"></div>
+                    <img
+                        src="./img/working-machine.png"
+                        alt="working-machine"
+                        class="benefits-background"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+            <section class="capabilities padding-y">
+                <h2 class="visually-hidden">Our Machines</h2>
+                <div
+                    class="capabilities-banner container"
+                    id="capabilitiesList"
+                >
+                    <h3 class="capabilities-header medium-title">
+                        Our <span class="highlight">Machines</span>
+                    </h3>
+                    <ul class="capabilities-list">
+                        <li
+                            class="capabilities-item box-shadow"
+                            id="startLine2"
+                        >
+                            <div class="capabilities-upper-block">
+                                <div class="capabilities-img">
+                                    <img
+                                        src="./img/capabilities/cnc machining .webp"
+                                        class="logo-img"
+                                        alt="HVAC Duct Machine"
+                                    />
+                                </div>
+                                <div class="capabilities-title margin-y">
+                                    <h3 class="header-small">
+                                        HVAC Duct Machine
+                                    </h3>
+                                    <p class="muted-text margin-top logo-text">
+                                        Discover high-quality duct making
+                                        machine that streamline duct fabrication
+                                        with precision and efficiency
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capabilities-lower-block margin-y">
+                                <a href="./products.html" class="link-arrow"
+                                    >More on CNC Machines</a
+                                >
+                                <svg
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        stroke-width="1.5"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </li>
+
+                        <li class="capabilities-item box-shadow">
+                            <div class="capabilities-upper-block">
+                                <div class="capabilities-img">
+                                    <img
+                                        src="./img/capabilities/rapid-prototyping.webp"
+                                        alt="Press Brake Machine"
+                                        class="logo-img"
+                                    />
+                                </div>
+                                <div class="capabilities-title margin-y">
+                                    <h3 class="header-small">
+                                        Press Brake Machine
+                                    </h3>
+                                    <p class="muted-text margin-top logo-text">
+                                        A press brake is a machine used to bend
+                                        sheet metal and metal plates. Its design
+                                        is long and narrow so it is able to fit
+                                        large pieces of sheet metal.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capabilities-lower-block margin-y">
+                                <a href="./products.html" class="link-arrow"
+                                    >More on CNC Machines</a
+                                >
+                                <svg
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        stroke-width="1.5"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </li>
+
+                        <li class="capabilities-item box-shadow">
+                            <div class="capabilities-upper-block">
+                                <div class="capabilities-img">
+                                    <img
+                                        src="./img/capabilities/assembly production.webp"
+                                        class="logo-img"
+                                        alt="Fiber Laser Cutting Machine"
+                                    />
+                                </div>
+                                <div class="capabilities-title margin-y">
+                                    <h3 class="header-small">
+                                        F/L Cutting Machine
+                                    </h3>
+                                    <p class="muted-text margin-top logo-text">
+                                        We provide full assembly from start to
+                                        finish and can have a complete product
+                                        delivered to your door. Our full
+                                        production range includes machining,
+                                        fabrication, metal finishing, welding,
+                                        etc.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capabilities-lower-block margin-y">
+                                <a href="./products.html" class="link-arrow"
+                                    >More on CNC Machines</a
+                                >
+                                <svg
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M6 3L11 8L6 13"
+                                        stroke="CurrentColor"
+                                        stroke-width="1.5"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </li>
+
+                        <li
+                            class="capabilities-item box-shadow capabilities-wide-item"
+                        >
+                            <div class="capabilities-img wide">
+                                <img
+                                    src="./img/capabilities/assembly production.webp"
+                                    alt="Capabilities1"
+                                    class="capabilities-img-last logo-img"
+                                />
+                            </div>
+                            <div class="capabilities-title">
+                                <h3 class="header-small">Other Machines</h3>
+                                <p class="muted-text margin-top logo-text">
+                                    In addition to the above-mentioned machines,
+                                    we offer you wide range for your
+                                    requirements.
+                                </p>
+                                <ul
+                                    id="muted-text"
+                                    class="capabilities-list-item"
+                                >
+                                    <li><span>Grooving machine</span></li>
+                                    <li><span>Shearing machine</span></li>
+                                    <li><span>Punching machine</span></li>
+                                    <li><span>Rolling machine</span></li>
+                                    <li><span>Welding machine</span></li>
+                                    <li><span>And more...</span></li>
+                                </ul>
+                                <div class="left-text-container">
+                                    <a href="./products.html" class="link-arrow"
+                                        >More on our Other Machines</a
+                                    >
+                                    <svg
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 16 16"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M6 3L11 8L6 13"
+                                            stroke="CurrentColor"
+                                            stroke-width="1.5"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="banner">
+                <h2 class="visually-hidden">Contacts banner</h2>
+                <div
+                    class="banner-wrapper highlight-text padding-y container-small"
+                    id="startLine3"
+                >
+                    <h3 class="basic-header banner-header">
+                        Get High-Quality HVAC <br />
+                        Machined Components
+                    </h3>
+                    <div class="intro-description">
+                        <p>
+                            Quality assurance at every stage in our factory
+                            based in Nanjing
+                        </p>
+                    </div>
+                    <div class="action-block margin-y width banner-action">
+                        <div class="contact-action">
+                            <span class="muted-text"
+                                >Find quality solution to your
+                                requirements!</span
+                            >
+                            <a
+                                href="./products.html"
+                                class="button-item-alternate"
+                                >Machines</a
+                            >
+                        </div>
+                        <div class="contact-action">
+                            <span class="muted-text"
+                                >Want to talk about your requirements?</span
+                            >
+                            <a
+                                href="./contact-us.html"
+                                class="button-item-alternate transparent"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-absolute-background">
+                    <div class="overlay-background-alternate"></div>
+                    <img
+                        src="./img/working-machine-2.jpg"
+                        alt="working-machine"
+                        class="benefits-background"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+            <section class="work-process padding-y">
+                <h2 class="visually-hidden">Our Work Process</h2>
+                <div class="work-stages container">
+                    <h3 class="medium-title">
+                        How <span class="highlight">Our Process</span> Works
+                    </h3>
+                    <ul class="work-stages-list margin-y">
+                        <li
+                            class="work-stages-item box-shadow"
+                            data-count="1"
+                            id="startLine4"
+                        >
+                            <div class="circle">
+                                <span class="icon-scale">1</span>
+                            </div>
+                            <img
+                                src="./icons/benefits/stage1.svg"
+                                alt="Send Your Designs"
+                                class="work-stage-icon"
+                                loading="lazy"
+                                width="128"
+                                height="128"
+                            />
+                            <div class="work-stage-title margin-y">
+                                <h3 class="header-small">
+                                    Machine Introduction
+                                </h3>
+                                <p class="muted-text margin-y">
+                                    Find a machine according to your
+                                    requirements on our website or you can email
+                                    them and we will get back to you within 4
+                                    business hours
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="work-stages-item box-shadow" data-count="2">
+                            <div class="circle">
+                                <span class="icon-scale">2</span>
+                            </div>
+                            <img
+                                src="./icons/benefits/registration.png"
+                                alt="Manufacture"
+                                class="work-stage-icon"
+                                loading="lazy"
+                                width="128"
+                                height="128"
+                            />
+                            <div class="work-stage-title margin-y">
+                                <h3 class="header-small">Inquiry Form</h3>
+                                <p class="muted-text margin-y">
+                                    Contact us what volume of request you need,
+                                    where to send us the parcel, leave us
+                                    contact for detailed information if
+                                    necessary, and stay updated with all
+                                    notifications
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="work-stages-item box-shadow" data-count="3">
+                            <div class="circle">
+                                <span class="icon-scale">3</span>
+                            </div>
+                            <img
+                                src="./icons/benefits/stage3.svg"
+                                alt="Quality Inspection"
+                                class="work-stage-icon"
+                                loading="lazy"
+                                width="128"
+                                height="128"
+                            />
+                            <div class="work-stage-title margin-y">
+                                <h3 class="header-small">Packing</h3>
+                                <p class="muted-text margin-y">
+                                    We pack every part of the machine with high
+                                    quality and make it safe, and our team of
+                                    experts will check that everything is in
+                                    place.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="work-stages-item box-shadow" data-count="4">
+                            <div class="circle">
+                                <span class="icon-scale">4</span>
+                            </div>
+                            <img
+                                src="./icons/benefits/stage4.svg"
+                                alt="Delivery"
+                                class="work-stage-icon"
+                                loading="lazy"
+                                width="128"
+                                height="128"
+                            />
+                            <div class="work-stage-title margin-y">
+                                <h3 class="header-small">Delivery</h3>
+                                <p class="muted-text margin-y">
+                                    We ensure on-time delivery to your doorstep
+                                    by utilising our own delivery drivers and
+                                    transport partnerships so we can delivery
+                                    anywhere you are in the fastest time.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="experience padding-y">
+                <h2 class="visually-hidden">Experience in CNC Machining</h2>
+                <div class="basic-flex-container container">
+                    <div class="experience-title">
+                        <h2 class="basic-header">
+                            Over <span class="highlight">29 Years</span> of
+                            Experience in HVAC Machining
+                        </h2>
+                        <div class="intro-description muted-text">
+                            <p>
+                                MasonCNC has over 29 years of experience in
+                                servicing some of the largest and most
+                                accredited companies throughout China, which has
+                                enabled us to build a solid reputation
+                                throughout the industry.
+                            </p>
+                        </div>
+                        <div class="main-item-action">
+                            <a href="./products.html" class="button-item-large"
+                                >Machines</a
+                            >
+                            <a
+                                href="./contact-us.html"
+                                class="button-item-large transparent"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                    <div class="location-map box-shadow">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13599.001102018427!2d118.83137026825086!3d31.558467371452164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b5654b5cf67345%3A0x2d03f88fbd23157b!2zQm93YW5nIFRvd24sIEJvd2FuZyBEaXN0cmljdCwg0JzQsNCw0L3RjNGI0LDQvdGMLCDQkNC90YzRhdC-0LksINCa0LjRgtCw0LksIDI0MzEzMQ!5e0!3m2!1sru!2sde!4v1746795157112!5m2!1sru!2sde"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+            <section class="asked-questions">
+                <h2 class="visually-hidden">Asked questions</h2>
+                <div
+                    class="questions vertical-container container-small padding-y"
+                >
+                    <h2 class="medium-title">Frequently Asked Questions</h2>
+                    <ul class="question-accordion" id="accordion">
+                        <li class="accordion-item">
+                            <div class="accordion-question">
+                                <p class="text-weight-bold p-text-size">
+                                    How fast can you manufacture?
+                                </p>
+                                <button class="accordion-show">
+                                    <img
+                                        src="./icons/logo/icon_plus.svg"
+                                        class="show-img"
+                                        alt="Read"
+                                        width="32"
+                                        height="32"
+                                    />
+                                </button>
+                            </div>
+                            <div class="acc-answer muted-text">
+                                <output
+                                    >We understand there can be urgencies with
+                                    breakdowns and production runs. So we offer
+                                    a 24 hour turnaround service on any urgent
+                                    requirements to get you moving
+                                    forward.</output
+                                >
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <div class="accordion-question">
+                                <p class="text-weight-bold p-text-size">
+                                    Do you offer delivery?
+                                </p>
+                                <button class="accordion-show">
+                                    <img
+                                        src="./icons/logo/icon_plus.svg"
+                                        class="show-img"
+                                        alt="Read"
+                                        width="32"
+                                        height="32"
+                                    />
+                                </button>
+                            </div>
+                            <div class="acc-answer muted-text">
+                                <output
+                                    >Yes! We have our own drivers for deliveries
+                                    and have partnerships with transport
+                                    companies, so we can deliver anywhere in
+                                    Australia.</output
+                                >
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <div class="accordion-question">
+                                <p class="text-weight-bold p-text-size">
+                                    How long is delivery?
+                                </p>
+                                <button class="accordion-show">
+                                    <img
+                                        src="./icons/logo/icon_plus.svg"
+                                        class="show-img"
+                                        alt="Read"
+                                        width="32"
+                                        height="32"
+                                    />
+                                </button>
+                            </div>
+                            <div class="acc-answer muted-text">
+                                <output
+                                    >We offer next day delivery for Metropolitan
+                                    Melbourne and 2-5 business days to anywhere
+                                    else in Australia.</output
+                                >
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <div class="accordion-question">
+                                <p class="text-weight-bold p-text-size">
+                                    Can you work off digital files?
+                                </p>
+                                <button class="accordion-show">
+                                    <img
+                                        src="./icons/logo/icon_plus.svg"
+                                        class="show-img"
+                                        alt="Read"
+                                        width="32"
+                                        height="32"
+                                    />
+                                </button>
+                            </div>
+                            <div class="acc-answer muted-text">
+                                <output
+                                    >Yes! We can provide a full service from
+                                    quotation to production from any digital
+                                    file, including PDFs.</output
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="contact margin-big width">
+                        <p class="header-medium text-weight-bold">
+                            Still have questions?
+                        </p>
+                        <div class="margin-top muted-text">
+                            <p class="p-text-size">
+                                If you have any questions about our services,
+                                please don’t hesitate to reach out. We’re always
+                                happy to help!
+                            </p>
+                        </div>
+                        <div class="main-item-action margin-top">
+                            <a
+                                href="./contact-us.html"
+                                class="button-item-large transparent"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="banner">
+                <h2 class="visually-hidden">Contacts banner</h2>
+                <div
+                    class="banner-wrapper highlight-text padding-y container-small"
+                >
+                    <h3 class="basic-header">
+                        Get High-Quality HVAC <br />
+                        Machined Components
+                    </h3>
+                    <div class="intro-description">
+                        <p>
+                            Quality assurance at every stage in our factory
+                            based in Nanjing
+                        </p>
+                    </div>
+                    <div class="action-block margin-y width">
+                        <div class="contact-action">
+                            <span class="muted-text"
+                                >Find solution yo your requirements?</span
+                            >
+                            <a
+                                href="./products.html"
+                                class="button-item-alternate"
+                                >Machines</a
+                            >
+                        </div>
+                        <div class="contact-action">
+                            <span class="muted-text"
+                                >Want to talk about your project?</span
+                            >
+                            <a
+                                href="./contact-us.html"
+                                class="button-item-alternate transparent"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-absolute-background">
+                    <div class="overlay-background"></div>
+                    <img
+                        src="./img/working-machine-2.jpg"
+                        alt="working-machine"
+                        class="benefits-background"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-main container">
+                <div class="footer-main-inner">
+                    <div class="footer-left-inner">
+                        <header class="footer-logo">
+                            <a href="./index.html">
+                                <img
+                                    src="./icons/logo/MasonCnc-logo.png"
+                                    alt="MasonCnc"
+                                    class="footer-logo-img"
+                                    width="200"
+                                    height="50"
+                                    loading="lazy"
+                                />
+                            </a>
+                        </header>
+                        <ul class="footer-menu-list">
+                            <li class="footer-menu-item">
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="./products.html">Machines</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="/">Industries</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="/">About</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="./contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-right-inner">
+                        <div class="footer-contact">
+                            <div class="footer-address">
+                                <p class="footer-a-light">Address:</p>
+                                <address class="address">
+                                    No.1010-2, Taihang Mountain Road, Bowang
+                                    Town, Bowang District, Maanshan, Anhui,
+                                    China
+                                </address>
+                            </div>
+                            <div class="footer-address">
+                                <p class="footer-a-light">Contact:</p>
+                                <ul class="foote-menu-list">
+                                    <li>
+                                        <a
+                                            href="tel:+8615061223314"
+                                            class="alternate-link"
+                                            >+86-15061223314</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="mailto:judy@mason-machine.com"
+                                            class="alternate-link"
+                                            >judy@mason-machine.com</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-extra margin-big">
+                    <div class="footer-copyright">
+                        © <time datetime="2024">2024</time>Mason CNC Machinery
+                        Co.,Ltd.
+                    </div>
+                    <div class="footer-soc1als">
+                        <ul class="footer-soc1als-list">
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="https://www.tiktok.com/tiktokstudio/content"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/tiktok-svgrepo-com.svg"
+                                        alt="tiktok"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="https://www.youtube.com/channel/UCfFsaJAhN-psEMfjIkhmMgA"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/youtube-color-svgrepo-com.svg"
+                                        alt="youtube"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href=""
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/instagram-svgrepo-com.svg"
+                                        alt="instagram"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="https://www.facebook.com/profile.php?id=61572889269140"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/facebook-network-communication-internet-interaction-svgrepo-com.svg"
+                                        alt="facebook"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="tel:+8615061223314"
+                                >
+                                    <img
+                                        src="./icons/whatsapp-svgrepo-com (1).svg"
+                                        alt="whatsapp"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-    </footer>
-    <script src="./src/animation.js"></script>
-    <script src="./src/translator.js"></script>
-  </body>
+        </footer>
+        <script src="./src/animation.js"></script>
+        <script src="./src/translator.js"></script>
+    </body>
 </html>

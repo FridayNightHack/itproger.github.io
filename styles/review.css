@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Jost';
-    src: url('../fonts/Jost/Jost-SemiBold.woff2') format('woff2'),
+    src:
+        url('../fonts/Jost/Jost-SemiBold.woff2') format('woff2'),
         url('../fonts/Jost/Jost-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
@@ -9,7 +10,8 @@
 
 @font-face {
     font-family: 'Jost';
-    src: url('../fonts/Jost/Jost-Medium.woff2') format('woff2'),
+    src:
+        url('../fonts/Jost/Jost-Medium.woff2') format('woff2'),
         url('../fonts/Jost/Jost-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
@@ -18,7 +20,8 @@
 
 @font-face {
     font-family: 'Jost';
-    src: url('../fonts/Jost/Jost-Regular.woff2') format('woff2'),
+    src:
+        url('../fonts/Jost/Jost-Regular.woff2') format('woff2'),
         url('../fonts/Jost/Jost-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -26,7 +29,7 @@
 }
 
 :root {
-    --font-family-jost: "Jost", sans-serif;
+    --font-family-jost: 'Jost', sans-serif;
 }
 
 .machine-review {
@@ -62,8 +65,7 @@
 }
 
 .breadcrumbs,
-.description-tabs
-{
+.description-tabs {
     display: flex;
     position: relative;
 }
@@ -75,11 +77,10 @@
 
 .breadcrumbs-link,
 .main-details,
-.info-list
-{
+.info-list {
     font-size: 14px;
     font-weight: normal;
-    color:#767676;
+    color: #767676;
     line-height: 1.8;
 }
 
@@ -89,7 +90,7 @@
 }
 
 .breadcrumbs-item:nth-child(1n + 2)::before {
-    content: "/\00a0";
+    content: '/\00a0';
     padding-inline: 5px;
 }
 
@@ -112,7 +113,7 @@
 
 .request-button {
     display: inline-block;
-    color: #FFF;
+    color: #fff;
     background-color: var(--color-gray-blue);
     padding: 10px 20px;
     border-radius: var(--border-radius-small);
@@ -144,7 +145,7 @@
     justify-content: center;
     column-gap: 25px;
     font-family: var(--font-family-jost);
-	font-weight: normal;
+    font-weight: normal;
 }
 
 .tabs-items {
@@ -162,9 +163,8 @@
 }
 
 .tab.active,
-.tab:hover
-{
-    color:#242424;
+.tab:hover {
+    color: #242424;
 }
 
 .tab.active::after,
@@ -190,7 +190,7 @@
     opacity: 0;
 }
 
-.description-features.active{
+.description-features.active {
     position: relative;
     left: 0;
     opacity: 1;
@@ -255,43 +255,38 @@ tr b {
     padding-top: var(--p-padding-big);
 }
 
-@media(max-width: 991px) {
-
-.review-sections {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-column-gap: 0px;
-    grid-row-gap: 20px;
+@media (max-width: 991px) {
+    .review-sections {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
 }
 
-}
-
-@media(min-width: 768px) {
-    
+@media (min-width: 768px) {
     .tab::after {
-    content: "";
-    display: inline;
-    width: 0%;
-    height: 3px;
-    background-color: #0066b4;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: all 0.2s ease-in-out;
+        content: '';
+        display: inline;
+        width: 0%;
+        height: 3px;
+        background-color: #0066b4;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: all 0.2s ease-in-out;
+    }
 }
 
-}
-
-@media(max-width:768px) {
-
+@media (max-width: 768px) {
     .breadcrumbs-item:last-child {
         display: none;
     }
 
     .breadcrumbs-item:nth-child(2n):not(:empty) a {
-    color: #242424;
-    font-weight: 500;
+        color: #242424;
+        font-weight: 500;
     }
 
     .description-tabs {
@@ -299,8 +294,7 @@ tr b {
         align-items: flex-start;
     }
 
-    .tab
-    {
+    .tab {
         text-transform: inherit;
         padding-block: 15px;
         color: #242424;

@@ -1,4 +1,3 @@
-
 const tabContent = document.querySelectorAll('.tab');
 const info = document.querySelectorAll('.description-features');
 
@@ -9,15 +8,15 @@ const selectTab = (e) => {
         tabContent[i].classList.remove('active');
     }
 
-    if(e.target) {
+    if (e.target) {
         // Add active class to the clicked tab
         const tabDisplay = e.target.getAttribute('aria-controls');
         const tabContent = document.getElementById(tabDisplay);
         tabContent.classList.add('active');
         e.target.classList.add('active');
     }
-}
+};
 
 Array.from(tabContent).forEach((tab) => {
     tab.addEventListener('click', selectTab);
-})
+});

@@ -1,502 +1,469 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="./styles/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="notification">
-      <div class="notification-item container">
-        <p>Produced in Nanjing 100%</p>
-        <a href="tel:+8615061223314" class="notification-num">+86-15061223314</a>
-      </div>
-    </div>  
-    <header class="header">
-        <div class="header-item container">
-          <a href="./index.html">
-            <img 
-              src="./icons/logo/MasonCnc-logo.png" 
-              alt="MasonCnc"
-              loading="lazy"
-              >
-          </a>
-          <nav class="header-menu">
-            <label for="menu-toggle" class="menu-toggle">
-              <span class="visually-hidden">Open menu</span>
-              <span class="menu-icon"></span>
-              <span class="menu-icon"></span>
-              <span class="menu-icon"></span>
-              <input type="checkbox" id="menu-toggle" />
-            </label>
-            <ul class="header-menu-list bold-list" id="navSection">
-              <li class="header-menu-item"><a href="./index.html">Home</a></li>
-              <li class="header-menu-item"><a href='./products.html'>Machines</a></li>
-              <li class="header-menu-item"><a href="/">Industries</a></li>
-              <li class="header-menu-item"><a href="/">About</a></li>
-              <li class="header-menu-item"><a href="/">Contact Us</a></li>
-              <li class="header-menu-item"><button class="button-item" id="setLang">En</button></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
-    <main class="main">
-        <h1 class="visually-hidden">MasonCnc - Machinery Company you can trust</h1>
-        <section class="main-item">
-          <h2 class="visually-hidden">Get high</h2>
-          <div class="main-item-background vertical-size container-wide highlight-text">
-          <div class="main-item-header">
-          <div class="main-item-intro alternate" id="mainSection">
-            <h3 class="intro-header">Our CNC Manufacturing Capabilities</h3>
-            <div class="intro-description">
-            <p>Get custom milled parts for rapid<br>prototyping and mass production.</p>
-            </div>  
-          </div>
-        </div>
-        </div>
-        <div class="benefits-absolute-background">
-          <div class="overlay-background-blur"></div>
-          <img src="./img/products/HVAC-services.jpg" alt="working-machine" class="benefits-background" loading="lazy">
-        </div>
-        </section>
-        <section class="category">
-          <div class="select-category container">
-          <h2 class="visually-hidden">Products Category</h2>
-            <aside class="category-nav">
-            <a href="#" class="header-link highlight-text box-shadow-low">All Category</a>
-            <ul class="category-types box-shadow-low">
-              <li class="category-items">
-                <button class="dark-link">
-                  Metal Sheet & Profile Bending
-                <img 
-                      src="./icons/arrow-left.svg" 
-                      width="14" 
-                      height="14"
-                      class="arrow-icon"
-                      >
-                </button>
-                <div class="hover-dropdown box-shadow-low">
-                  <ul class="dropdown-list">
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">CNC Press Brake</a>
-                    </li>
-                     <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Roll Bending Machine</a>
-                    </li>
-                     <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Profile Bending Machine</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="category-items">
-                <button 
-                  class="dark-link">
-                  Metal Sheet & Profile Cutting
-                 <img 
-                      src="./icons/arrow-left.svg" 
-                      width="14" 
-                      height="14"
-                      class="arrow-icon"
-                      >
-                </button>
-                <div class="hover-dropdown box-shadow-low">
-                  <ul class="dropdown-list">
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Shearing Machine</a>
-                    </li>
-                     <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Laser Cutting Machine</a>
-                    </li>
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Plasma Cutting Machine</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="category-items">
-                <button 
-                  class="dark-link">
-                  Press Machine
-                 <img 
-                      src="./icons/arrow-left.svg" 
-                      width="14" 
-                      height="14"
-                      class="arrow-icon"
-                      >
-                </button>
-                <div class="hover-dropdown box-shadow-low">
-                  <ul class="dropdown-list">
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Hydraulic Press Machine</a>
-                    </li>
-                     <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Punch Press Machine</a>
-                    </li>
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Hydraulic Iron Worker</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-               <li class="category-items">
-                <button 
-                  class="dark-link">HVAC DUCT Forming Machine
-                   <img 
-                      src="./icons/arrow-left.svg" 
-                      width="14" 
-                      height="14"
-                      class="arrow-icon"
-                      >
-                </button>
-                <div class="hover-dropdown box-shadow-low">
-                  <ul class="dropdown-list">
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Auto Production Line</a>
-                    </li>
-                     <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Round Duct Machine</a>
-                    </li>
-                    <li class="dropdown-items">
-                      <a href="#" class="dropdown-item-list">Square Duct Machine</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-            </aside>
-            <div class="content">
-              <h3 class="medium-title">HVAC Duct Machine</h3>
-              <ul class="content-cards">
-                <li class="content-cards-item">
-                  <div class="card">
-                  <div class="card__body">
-                    <div class="half">
-                      <div class="featured_text">
-                       <h3>Press Brake Machine</h3>
-                       <p class="sub">Metal Sheet & Profile Bending</p>
-                      </div>
-
-                     <div class="image">
-                       <img src="https://masoncnc.ru/products/auto-duct-5/U%20shape%20Auto%20Duct%20Line%20V/img/background.png" alt="">
-                     </div>
-                    </div>
-                    <div class="half">
-                    <ul class="description">
-                      <li class="desc-li">
-                        AML-III Rectangular Duct Production Line is a piece of the very important equipment in duct production and is mainly used for blanking of air duct flat plates for HVAC duct manufacturers. Meanwhile, It can cut sheet metal for TDF flange work, and also can fold “口” shape for angle flange duct making. The functions mainly include leveling, beading, notching, cutting, and folding.
-                      </li>
-                      <li class="desc-li">Sheeting Thickness (mm)：0.5-1.5</li>
-                      <li class="desc-li">Max Working Speed (m/min)：16</li>
-                      <li class="desc-li">Max Weight Of Sending Coil (T)：7×2</li>
-                      <li class="desc-li">Total Power (KW)：10</li>
-                    </ul>
-                    <span class="stock"><i class="fa fa-pen"></i>In stock</span>
-
-                  <div class="reviews">
-                    <ul class="stars">
-                    <li><img src="./icons/star-icon.svg" width="14" height="14"></li>
-                    <li><img src="./icons/star-icon.svg" width="14" height="14"></li>
-                    <li><img src="./icons/star-icon.svg" width="14" height="14"></li>
-                    <li><img src="./icons/star-icon.svg" width="14" height="14"></li>
-                    <li><img src="./icons/star-icon.svg" width="14" height="14"></li>
-                    </ul>
-                    <span>(64 reviews)</span>
-                  </div>
-                    </div>
-                  </div>
-            <div class="card__footer">
-              <div class="recommend">
-                <p class="p-text-size">Recommended by</p>
-                <h3>Mason Machinery</h3>
-              </div>
-            <div class="action">
-                <a href="./items.html">Inquiry</a>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+    </head>
+    <body>
+        <div class="notification">
+            <div class="notification-item container">
+                <p>Produced in Nanjing 100%</p>
+                <a href="tel:+8615061223314" class="notification-num"
+                    >+86-15061223314</a
+                >
             </div>
-          </div>
-          </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="benefits">
-          <h2 class="visually-hidden">Check out our benefits</h2>
-          <div class="benefits-item highlight-text padding-y container">
-            <div class="intro-description vertical-padding">
-              <span>100% MasonCnC Owned & Operated</span><br>
-              <span>Based in Nanjing&nbsp;<time datetime="1996">1996</time></span>
-            </div>
-              <ul class="benefits-list">
-                <li class="benefits-list-item">
-                  <img 
-                    src="./icons/benefits/supply-chain.png"
-                    alt="supply-chain" class="benefits-list-icon"
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                    <div class="benefits-title">
-                      <h3 class="benefits-header">Raw Material Supply</h3>
-                      <div class="benefits-notice-title">
-                      <output>
-                        In-depth cooperation with international brands, including Siemens, Yaskawa, Schneider, Bosch Rexroth, Hiwin, etc
-                      </output>
-                      </div>
-                    </div>
-                </li>
-                <li class="benefits-list-item" id="startLine1">
-                  <img 
-                    src="./icons/benefits/production.png" 
-                    alt="production and processing" 
-                    class="benefits-list-icon" 
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                    <div class="benefits-title">
-                      <h3 class="benefits-header">Production & Processing</h3>
-                    <div class="benefits-notice-title">
-                    <output>
-                      large size CNC boring and milling machine, gantry machining center, CNC plasma cutting machine
-                    </output>
-                  </div>
-                    </div>
-                </li>
-                <li class="benefits-list-item">
-                  <img 
-                    src="./icons/benefits/sale.png" 
-                    alt="production and processing" 
-                    class="benefits-list-icon" 
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                  <div class="benefits-title">
-                    <h3 class="benefits-header">Market Sales</h3>
-                  <div class="benefits-notice-title">
-                    <output>
-                      Seven years of foreign trade sales experience, with a large number of high-quality dealers, machines are exported abroad
-                    </output>
-                  </div>
-                  </div>
-                </li>
-                <li class="benefits-list-item">
-                  <img 
-                    src="./icons/benefits/support.png" 
-                    alt="production and processing" 
-                    class="benefits-list-icon" 
-                    loading="lazy"
-                    width="65"
-                    height="75"
-                    >
-                  <div class="benefits-title">
-                    <h3 class="benefits-header">After-Sales Production</h3>
-                  <div class="benefits-notice-title">
-                    <output>
-                      24/7 online service will provide you with technical advice and technical fault analysis after receiving the machine
-                    </output>
-                  </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          <div class="benefits-absolute-background">
-            <div class="overlay-background"></div>
-            <img src="./img/working-machine.png" alt="working-machine" class="benefits-background" loading="lazy">
-          </div>
-          </div>
-        </section>
-        <section class="work-process padding-y">
-          <h2 class="visually-hidden">Our Work Process</h2>
-          <div class="work-stages container">
-            <h3 class="medium-title">How <span class="highlight">Our Process</span> Works</h3>
-            <ul class="work-stages-list margin-y">
-              
-              <li class="work-stages-item box-shadow" data-count="1" id="startLine4">
-                <div class="circle">
-                  <span class="icon-scale">1</span>
-                </div>
-                <img 
-                    src="./icons/benefits/stage1.svg" 
-                    alt="Send Your Designs" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Machine Introduction</h3>
-                  <p class="muted-text margin-y">Find a machine according to your requirements on our website or you can email them and we will get back to you within 4 business hours</p>  
-                </div>
-              </li>
-
-              <li class="work-stages-item box-shadow" data-count="2">
-                <div class="circle">
-                  <span class="icon-scale">2</span>
-                </div>
-                <img 
-                    src="./icons/benefits/registration.png" 
-                    alt="Manufacture" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Inquiry Form</h3>
-                  <p class="muted-text margin-y">Contact us what volume of request you need, where to send us the parcel, leave us contact for detailed information if necessary, and stay updated with all notifications</p>  
-                </div>
-              </li>
-
-              <li class="work-stages-item box-shadow" data-count="3">
-                <div class="circle">
-                  <span class="icon-scale">3</span>
-                </div>
-                <img 
-                    src="./icons/benefits/stage3.svg" 
-                    alt="Quality Inspection" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Packing </h3>
-                  <p class="muted-text margin-y">We pack every part of the machine with high quality and make it safe, and our team of experts will check that everything is in place.</p>  
-                </div>
-              </li>
-
-              <li class="work-stages-item box-shadow" data-count="4">
-                <div class="circle">
-                  <span class="icon-scale">4</span>
-                </div>
-                <img 
-                    src="./icons/benefits/stage4.svg" 
-                    alt="Delivery" 
-                    class="work-stage-icon"
-                    loading="lazy"
-                    width="128"
-                    height="128"
-                    >
-                <div class="work-stage-title margin-y">
-                  <h3 class="header-small">Delivery</h3>
-                  <p class="muted-text margin-y">We ensure on-time delivery to your doorstep by utilising our own delivery drivers and transport partnerships so we can delivery anywhere you are in the fastest time.</p>  
-                </div>
-              </li>
-            
-            </ul>
-          </div>
-        </section>
-          <section class="banner">
-          <h2 class="visually-hidden">Contacts banner</h2>
-        <div class="banner-wrapper highlight-text padding-y container-small">
-          <h3 class="basic-header">
-            Get High-Quality HVAC <br>
-            Machined Components</h3>
-          <div class="intro-description">
-          <p>Quality assurance at every stage in our factory based in Nanjing</p>
-          </div>
-          <div class="action-block margin-y width">
-         <div class="contact-action">
-          <span class="muted-text">Find solution yo your requirements?</span>
-          <a href="./products.html" class="button-item-alternate">Machines</a>
-         </div>
-         <div class="contact-action">
-          <span class="muted-text">Want to talk about your project?</span>
-          <a href="./contact-us.html" class="button-item-alternate transparent">Contact Us</a>
-         </div>
-          </div>
-         </div>
-         <div class="benefits-absolute-background">
-          <div class="overlay-background"></div>
-          <img src="./img/working-machine-2.jpg" alt="working-machine" class="benefits-background" loading="lazy">
         </div>
-        </section>
-    </main>
-    <footer class="footer">
-          <div class="footer-main container">
-            <div class="footer-main-inner">
-              <div class="footer-left-inner">
-              <header class="footer-logo">
+        <header class="header sticky">
+            <div class="header-item container">
                 <a href="./index.html">
-                <img 
-                  src="./icons/logo/MasonCnc-logo.png" 
-                  alt="MasonCnc"
-                  class="footer-logo-img"
-                  width="200"
-                  height="50"
-                  loading="lazy"
-                  >
-                  </a>
-              </header>
-                <ul class="footer-menu-list">
-                  <li class="footer-menu-item"><a href="./index.html">Home</a></li>
-                  <li class="footer-menu-item"><a href="./products.html">Machines</a></li>
-                  <li class="footer-menu-item"><a href="/">Industries</a></li>
-                  <li class="footer-menu-item"><a href="/">About</a></li>
-                  <li class="footer-menu-item"><a href="./contact-us.html">Contact Us</a></li>
-                </ul>
-                </div>
-                <div class="footer-right-inner">
-              <div class="footer-contact">
-                <div class="footer-address">
-                  <p class="footer-a-light">Address:</p>
-                  <address class="address">No.1010-2, Taihang Mountain Road, Bowang Town, Bowang District, Maanshan, Anhui, China</address>
-                </div>
-                <div class="footer-address">
-                  <p class="footer-a-light">Contact:</p>
-                  <ul class="foote-menu-list">
-                    <li>
-                      <a href="tel:+8615061223314" class="alternate-link">+86-15061223314</a>
-                    </li>
-                    <li>
-                      <a href="mailto:judy@mason-machine.com" class="alternate-link">judy@mason-machine.com</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              </div>
+                    <img
+                        src="./icons/logo/MasonCnc-logo.png"
+                        alt="MasonCnc"
+                        loading="lazy"
+                    />
+                </a>
+                <nav class="header-menu">
+                    <label for="menu-toggle" class="menu-toggle">
+                        <span class="visually-hidden">Open menu</span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <input type="checkbox" id="menu-toggle" />
+                    </label>
+                    <ul class="header-menu-list bold-list" id="navSection">
+                        <li class="header-menu-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="./products.html">Machines</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="/">Industries</a>
+                        </li>
+                        <li class="header-menu-item"><a href="/">About</a></li>
+                        <li class="header-menu-item">
+                            <a href="/">Contact Us</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <button class="button-item" id="setLang">En</button>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="footer-extra margin-big">
-              <div class="footer-copyright">
-                © <time datetime="2024">2024</time>Mason CNC Machinery Co.,Ltd.
-              </div>
-               <div class="footer-soc1als">
-                <ul class="footer-soc1als-list">
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="https://www.tiktok.com/tiktokstudio/content" target="_blank">
-                      <img src="./icons/tiktok-svgrepo-com.svg" alt="tiktok" >
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="https://www.youtube.com/channel/UCfFsaJAhN-psEMfjIkhmMgA" target="_blank">
-                     <img src="./icons/youtube-color-svgrepo-com.svg" alt="youtube">
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="" target="_blank">
-                      <img src="./icons/instagram-svgrepo-com.svg" alt="instagram">
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="https://www.facebook.com/profile.php?id=61572889269140" target="_blank">
-                     <img src="./icons/facebook-network-communication-internet-interaction-svgrepo-com.svg" alt="facebook">
-                    </a>
-                  </li>
-                  <li class="footer-soc1als-item">
-                    <a class="footer-soc1als-link" href="tel:+8615061223314">
-                      <img src="./icons/whatsapp-svgrepo-com (1).svg" alt="whatsapp">
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        </header>
+        <main class="main">
+            <h1 class="visually-hidden">
+                MasonCnc - Machinery Company you can trust
+            </h1>
+            <section class="main-item">
+                <h2 class="visually-hidden">Get high</h2>
+                <div
+                    class="main-item-background vertical-size container highlight-text"
+                >
+                    <div class="main-item-header">
+                        <div class="main-item-intro alternate" id="mainSection">
+                            <h3 class="intro-header">
+                                Our CNC Manufacturing Capabilities
+                            </h3>
+                            <div class="intro-description">
+                                <p>
+                                    Get custom milled parts for rapid<br />prototyping
+                                    and mass production.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-absolute-background">
+                    <div class="overlay-background-blur"></div>
+                    <img
+                        src="./img/products/HVAC-services.jpg"
+                        alt="working-machine"
+                        class="benefits-background"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+            <section class="category">
+                <div class="select-category container">
+                    <h2 class="visually-hidden">Products Category</h2>
+                    <aside class="category-nav">
+                        <a
+                            href="#"
+                            class="header-link highlight-text box-shadow-low"
+                            >All Category</a
+                        >
+                        <ul class="category-types box-shadow-low">
+                            <li class="category-items">
+                                <button class="dark-link">
+                                    Metal Sheet & Profile Bending
+                                    <img
+                                        src="./icons/arrow-left.svg"
+                                        width="14"
+                                        height="14"
+                                        class="arrow-icon"
+                                    />
+                                </button>
+                                <div class="hover-dropdown box-shadow-low">
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >CNC Press Brake</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Roll Bending Machine</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Profile Bending Machine</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="category-items">
+                                <button class="dark-link">
+                                    Metal Sheet & Profile Cutting
+                                    <img
+                                        src="./icons/arrow-left.svg"
+                                        width="14"
+                                        height="14"
+                                        class="arrow-icon"
+                                    />
+                                </button>
+                                <div class="hover-dropdown box-shadow-low">
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Shearing Machine</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Laser Cutting Machine</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Plasma Cutting Machine</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="category-items">
+                                <button class="dark-link">
+                                    Press Machine
+                                    <img
+                                        src="./icons/arrow-left.svg"
+                                        width="14"
+                                        height="14"
+                                        class="arrow-icon"
+                                    />
+                                </button>
+                                <div class="hover-dropdown box-shadow-low">
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Hydraulic Press Machine</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Punch Press Machine</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Hydraulic Iron Worker</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="category-items">
+                                <button class="dark-link">
+                                    HVAC DUCT Forming Machine
+                                    <img
+                                        src="./icons/arrow-left.svg"
+                                        width="14"
+                                        height="14"
+                                        class="arrow-icon"
+                                    />
+                                </button>
+                                <div class="hover-dropdown box-shadow-low">
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Auto Production Line</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Round Duct Machine</a
+                                            >
+                                        </li>
+                                        <li class="dropdown-items">
+                                            <a
+                                                href="#"
+                                                class="dropdown-item-list"
+                                                >Square Duct Machine</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside>
+                    <div class="content">
+                        <h3 class="medium-title">HVAC Duct Machine</h3>
+                        <ul class="content-cards" id="fetchProduct"></ul>
+                    </div>
+                </div>
+            </section>
+            <section class="banner">
+                <h2 class="visually-hidden">Contacts banner</h2>
+                <div
+                    class="banner-wrapper highlight-text padding-y container-small"
+                >
+                    <h3 class="basic-header">
+                        Get High-Quality HVAC <br />
+                        Machined Components
+                    </h3>
+                    <div class="intro-description">
+                        <p>
+                            Quality assurance at every stage in our factory
+                            based in Nanjing
+                        </p>
+                    </div>
+                    <div class="action-block margin-y width">
+                        <div class="contact-action">
+                            <span class="muted-text"
+                                >Find solution yo your requirements?</span
+                            >
+                            <a
+                                href="./products.html"
+                                class="button-item-alternate"
+                                >Machines</a
+                            >
+                        </div>
+                        <div class="contact-action">
+                            <span class="muted-text"
+                                >Want to talk about your project?</span
+                            >
+                            <a
+                                href="./contact-us.html"
+                                class="button-item-alternate transparent"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-absolute-background">
+                    <div class="overlay-background"></div>
+                    <img
+                        src="./img/working-machine-2.jpg"
+                        alt="working-machine"
+                        class="benefits-background"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-main container">
+                <div class="footer-main-inner">
+                    <div class="footer-left-inner">
+                        <header class="footer-logo">
+                            <a href="./index.html">
+                                <img
+                                    src="./icons/logo/MasonCnc-logo.png"
+                                    alt="MasonCnc"
+                                    class="footer-logo-img"
+                                    width="200"
+                                    height="50"
+                                    loading="lazy"
+                                />
+                            </a>
+                        </header>
+                        <ul class="footer-menu-list">
+                            <li class="footer-menu-item">
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="./products.html">Machines</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="/">Industries</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="/">About</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <a href="./contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-right-inner">
+                        <div class="footer-contact">
+                            <div class="footer-address">
+                                <p class="footer-a-light">Address:</p>
+                                <address class="address">
+                                    No.1010-2, Taihang Mountain Road, Bowang
+                                    Town, Bowang District, Maanshan, Anhui,
+                                    China
+                                </address>
+                            </div>
+                            <div class="footer-address">
+                                <p class="footer-a-light">Contact:</p>
+                                <ul class="foote-menu-list">
+                                    <li>
+                                        <a
+                                            href="tel:+8615061223314"
+                                            class="alternate-link"
+                                            >+86-15061223314</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="mailto:judy@mason-machine.com"
+                                            class="alternate-link"
+                                            >judy@mason-machine.com</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-extra margin-big">
+                    <div class="footer-copyright">
+                        © <time datetime="2024">2024</time>Mason CNC Machinery
+                        Co.,Ltd.
+                    </div>
+                    <div class="footer-soc1als">
+                        <ul class="footer-soc1als-list">
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="https://www.tiktok.com/tiktokstudio/content"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/tiktok-svgrepo-com.svg"
+                                        alt="tiktok"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="https://www.youtube.com/channel/UCfFsaJAhN-psEMfjIkhmMgA"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/youtube-color-svgrepo-com.svg"
+                                        alt="youtube"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href=""
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/instagram-svgrepo-com.svg"
+                                        alt="instagram"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="https://www.facebook.com/profile.php?id=61572889269140"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./icons/facebook-network-communication-internet-interaction-svgrepo-com.svg"
+                                        alt="facebook"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a
+                                    class="footer-soc1als-link"
+                                    href="tel:+8615061223314"
+                                >
+                                    <img
+                                        src="./icons/whatsapp-svgrepo-com (1).svg"
+                                        alt="whatsapp"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-    </footer>
-    <script src="./src/animation.js"></script>
-    <script src="./src/translator.js"></script>
-  </body>
+        </footer>
+        <!-- <script src="./src/animation.js"></script> -->
+        <script src="./src/translator.js"></script>
+        <script src="./src/categoryData.js"></script>
+        <script>
+            const users = {
+                1: { id: 1, firstname: 'shammy', lastname: 'hemrayew' },
+                2: { id: 2, firstname: 'Kempo', lastname: 'jumaniyazow' },
+                3: { id: 3, firstname: 'alihan', lastname: 'seydayew' },
+            };
+
+            const orders = [
+                { id: 1, customerID: 1, goods: 'Bread, Milk' },
+                { id: 2, customerID: 3, goods: 'Oil, Butter' },
+                { id: 3, customerID: 2, goods: 'Coca Cola, Bubble' },
+                { id: 4, customerID: 1, goods: 'Ice, Cream' },
+            ];
+
+            const userOrders = Map.groupBy(
+                orders,
+                (order) => users[order.customerID],
+            );
+
+            for (const [user, orders] of userOrders) {
+                console.groupCollapsed(`${user.firstname} ${user.lastname}`);
+
+                for (const order of orders) console.log(`Order ${order.goods}`);
+
+                console.groupEnd();
+            }
+        </script>
+    </body>
 </html>
