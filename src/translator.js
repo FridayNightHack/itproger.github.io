@@ -114,10 +114,10 @@ const useLang = () => {
                     for (let i = 0; i < filtered?.childNodes.length; i++) {
                         if (
                             filtered?.childNodes[i]?.nodeName === '#text' &&
-                            filtered?.childNodes[i].data.indexOf('/n') != 0
+                            filtered?.childNodes[i].data.indexOf('/n') !== 0
                         ) {
                             // console.log(filtered?.childNodes[i].data.trim());
-                            let text = filtered?.childNodes[i].data.trim();
+                            // let text = filtered?.childNodes[i].data.trim();
                             filtered.childNodes[i].data =
                                 parentBlock?.langs?.translated[counter] + ' ';
                             counter++;

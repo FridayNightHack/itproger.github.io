@@ -1,5 +1,5 @@
 {
-    "Auto Duct Line": [
+    "Duct Production Line": [
         {
             "name": "Auto Duct Line II",
             "img": "./machines/auto-duct-1/Auto Duct Line I/background.png",
@@ -152,7 +152,7 @@
             ]
         }
     ],
-    "Spyral Duct Machine": [
+    "Spiral Duct Machine": [
         {
             "name": "BYL - 1500 Spiral Duct Machine",
             "img": "./machines/BYL-1500 Spiral Duct Machine/background.png",
@@ -502,7 +502,7 @@
             ]
         }
     ],
-    "Lock Machine": [
+    "Lock Forming Machine": [
         {
             "name": "Lock Machine",
             "img": "./machines/lock-machine/2mm lock machine/img/background.png",

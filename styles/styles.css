@@ -1307,11 +1307,13 @@ a {
     outline-color: #000000;
 }
 
-.dark-link:focus-within {
+/* .dark-link:focus-within, */
+.dark-link:hover {
     background-color: #4b494950;
 }
 
-.dark-link:focus-within .arrow-icon {
+/* .dark-link:focus-within .arrow-icon, */
+.dark-link:hover .arrow-icon {
     opacity: 0.8;
 }
 
