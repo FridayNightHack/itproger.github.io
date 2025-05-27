@@ -1,5 +1,5 @@
 const useShowCategory = ({ defaultValue, selectedValue }, response) => {
-    const category = selectedValue;
+    const category = selectedValue || defaultValue;
 
     let Products = function (productCategory, categoryName) {
         (this.category = productCategory),

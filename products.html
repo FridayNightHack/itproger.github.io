@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="notification">
-            <div class="notification-item container">
+            <div class="notification-item container" id="notificationList">
                 <p>Produced in Nanjing 100%</p>
                 <a href="tel:+8615061223314" class="notification-num"
                     >+86-15061223314</a
@@ -26,6 +26,17 @@
                     />
                 </a>
                 <nav class="header-menu">
+                    <div class="popover responsive-popover">
+                        <button class="button-item" id="setLang">EN</button>
+                        <div class="popover-target" id="popovertarget2">
+                            <button class="border-radius" data-lang="ru">
+                                Ru
+                            </button>
+                            <button class="border-radius" data-lang="en">
+                                En
+                            </button>
+                        </div>
+                    </div>
                     <label for="menu-toggle" class="menu-toggle">
                         <span class="visually-hidden">Open menu</span>
                         <span class="menu-icon"></span>
@@ -48,7 +59,25 @@
                             <a href="/">Contact Us</a>
                         </li>
                         <li class="header-menu-item">
-                            <button class="button-item" id="setLang">En</button>
+                            <div class="popover">
+                                <button class="button-item" id="setLang">
+                                    EN
+                                </button>
+                                <div class="popover-target" id="popovertarget">
+                                    <button
+                                        class="border-radius"
+                                        data-lang="ru"
+                                    >
+                                        Ru
+                                    </button>
+                                    <button
+                                        class="border-radius"
+                                        data-lang="en"
+                                    >
+                                        En
+                                    </button>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </nav>
@@ -59,7 +88,7 @@
                 MasonCnc - Machinery Company you can trust
             </h1>
             <section class="main-item">
-                <h2 class="visually-hidden">Get high</h2>
+                <h2 class="visually-hidden">Hire your product</h2>
                 <div
                     class="main-item-background vertical-size container highlight-text"
                 >
@@ -90,7 +119,7 @@
             <section class="category">
                 <div class="select-category container">
                     <h2 class="visually-hidden">Products Category</h2>
-                    <aside class="category-nav">
+                    <aside class="category-nav" id="categoryList">
                         <a
                             href="#"
                             class="header-link highlight-text box-shadow-low"
@@ -358,7 +387,9 @@
                         </ul>
                     </aside>
                     <div class="content">
-                        <h3 class="medium-title">HVAC Duct Machine</h3>
+                        <h3 class="medium-title" id="category-name">
+                            HVAC Duct Machine
+                        </h3>
                         <ul class="content-cards" id="fetchProduct"></ul>
                     </div>
                 </div>
@@ -367,8 +398,9 @@
                 <h2 class="visually-hidden">Contacts banner</h2>
                 <div
                     class="banner-wrapper highlight-text padding-y container-small"
+                    id="bannerList"
                 >
-                    <h3 class="basic-header">
+                    <h3 class="basic-header banner-header">
                         Get High-Quality HVAC <br />
                         Machined Components
                     </h3>
@@ -378,10 +410,11 @@
                             based in Nanjing
                         </p>
                     </div>
-                    <div class="action-block margin-y width">
+                    <div class="action-block margin-y width banner-action">
                         <div class="contact-action">
                             <span class="muted-text"
-                                >Find solution yo your requirements?</span
+                                >Find quality solution to your
+                                requirements!</span
                             >
                             <a
                                 href="./products.html"
@@ -391,7 +424,7 @@
                         </div>
                         <div class="contact-action">
                             <span class="muted-text"
-                                >Want to talk about your project?</span
+                                >Want to talk about your requirements?</span
                             >
                             <a
                                 href="./contact-us.html"
@@ -402,7 +435,7 @@
                     </div>
                 </div>
                 <div class="benefits-absolute-background">
-                    <div class="overlay-background"></div>
+                    <div class="overlay-background-alternate"></div>
                     <img
                         src="./img/working-machine-2.jpg"
                         alt="working-machine"
@@ -413,7 +446,7 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footer-main container">
+            <div class="footer-main container" id="contactsList">
                 <div class="footer-main-inner">
                     <div class="footer-left-inner">
                         <header class="footer-logo">

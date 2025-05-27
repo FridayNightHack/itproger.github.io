@@ -8,7 +8,7 @@
         <title>Vite App</title>
     </head>
     <body>
-        <div class="notification">
+        <div class="notification" id="notificationList">
             <div class="notification-item container">
                 <p>Produced in Nanjing 100%</p>
                 <a href="tel:+8615061223314" class="notification-num"
@@ -26,6 +26,17 @@
                     />
                 </a>
                 <nav class="header-menu">
+                    <div class="popover responsive-popover">
+                        <button class="button-item" id="setLang">EN</button>
+                        <div class="popover-target" id="popovertarget2">
+                            <button class="border-radius" data-lang="ru">
+                                Ru
+                            </button>
+                            <button class="border-radius" data-lang="en">
+                                En
+                            </button>
+                        </div>
+                    </div>
                     <label for="menu-toggle" class="menu-toggle">
                         <span class="visually-hidden">Open menu</span>
                         <span class="menu-icon"></span>
@@ -48,7 +59,25 @@
                             <a href="/">Contact Us</a>
                         </li>
                         <li class="header-menu-item">
-                            <button class="button-item" id="setLang">En</button>
+                            <div class="popover">
+                                <button class="button-item" id="setLang">
+                                    EN
+                                </button>
+                                <div class="popover-target" id="popovertarget">
+                                    <button
+                                        class="border-radius"
+                                        data-lang="ru"
+                                    >
+                                        Ru
+                                    </button>
+                                    <button
+                                        class="border-radius"
+                                        data-lang="en"
+                                    >
+                                        En
+                                    </button>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </nav>
@@ -400,7 +429,7 @@
                 <h2 class="visually-hidden">Contacts banner</h2>
                 <div
                     class="banner-wrapper highlight-text padding-y container-small"
-                    id="startLine3"
+                    id="bannerList"
                 >
                     <h3 class="basic-header banner-header">
                         Get High-Quality HVAC <br />
@@ -448,7 +477,7 @@
             </section>
             <section class="work-process padding-y">
                 <h2 class="visually-hidden">Our Work Process</h2>
-                <div class="work-stages container">
+                <div class="work-stages container" id="stagesList">
                     <h3 class="medium-title">
                         How <span class="highlight">Our Process</span> Works
                     </h3>
@@ -556,7 +585,7 @@
             </section>
             <section class="experience padding-y">
                 <h2 class="visually-hidden">Experience in CNC Machining</h2>
-                <div class="basic-flex-container container">
+                <div class="basic-flex-container container" id="experienceList">
                     <div class="experience-title">
                         <h2 class="basic-header">
                             Over <span class="highlight">29 Years</span> of
@@ -599,6 +628,7 @@
                 <h2 class="visually-hidden">Asked questions</h2>
                 <div
                     class="questions vertical-container container-small padding-y"
+                    id="questionsList"
                 >
                     <h2 class="medium-title">Frequently Asked Questions</h2>
                     <ul class="question-accordion" id="accordion">
@@ -719,7 +749,7 @@
                     </div>
                 </div>
             </section>
-            <section class="banner">
+            <section class="banner" id="banner2List">
                 <h2 class="visually-hidden">Contacts banner</h2>
                 <div
                     class="banner-wrapper highlight-text padding-y container-small"
@@ -737,7 +767,7 @@
                     <div class="action-block margin-y width">
                         <div class="contact-action">
                             <span class="muted-text"
-                                >Find solution yo your requirements?</span
+                                >Find solution to your requirements</span
                             >
                             <a
                                 href="./products.html"
@@ -769,7 +799,7 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footer-main container">
+            <div class="footer-main container" id="contactsList">
                 <div class="footer-main-inner">
                     <div class="footer-left-inner">
                         <header class="footer-logo">
@@ -905,6 +935,7 @@
                 </div>
             </div>
         </footer>
+
         <script src="./src/animation.js"></script>
         <script src="./src/translator.js"></script>
     </body>

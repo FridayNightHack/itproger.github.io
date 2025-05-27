@@ -10,6 +10,10 @@ window.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('key') === null) {
         localStorage.setItem('key', category.defaultValue);
     }
+
+    const filterCategory = document.getElementById('category-name');
+    filterCategory.textContent =
+        category.selectedValue || category.defaultValue;
 });
 
 function addEvent(attr) {
